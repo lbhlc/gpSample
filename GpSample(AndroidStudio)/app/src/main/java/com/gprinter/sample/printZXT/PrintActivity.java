@@ -13,6 +13,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -42,7 +43,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.example.smallchart.chart.LineChart;
 import com.example.smallchart.data.LineData;
 import com.example.smallchart.interfaces.iData.ILineData;
@@ -55,13 +55,11 @@ import com.gprinter.io.GpDevice;
 import com.gprinter.sample.PrinterConnectDialog;
 import com.gprinter.service.GpPrintService;
 import com.sample.R;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Vector;
-
 public class PrintActivity extends Activity implements View.OnClickListener {
     /**
      * 保存
@@ -120,8 +118,8 @@ public class PrintActivity extends Activity implements View.OnClickListener {
     private LineData mLineData = new LineData();
     private ArrayList<ILineData> mDataList = new ArrayList<>();
     private ArrayList<PointF> mPointArrayList = new ArrayList<>();
-    protected float[][] points = new float[][]{{1, 0.50f}, {2, 0.70f}, {3, 0.60f}, {4, 0.90f}, {5, 0.30f}, {6, 0.20f}, {7, 0.90f}, {8, 0.60f}, {9, 0.30f}, {10, 0.70f},
-            {11, 0.60f}, {12, 0.40f}, {13, 0.10f}, {14, 0.30f}, {15, 0.80f}, {16, 0.50f}, {17, 0.30f}, {18, 0.70f}, {19, 0.90f}, {20, 0.40f}};
+    protected float[][] points = new float[][]{{1, 0.5f}, {2, 0.70f}, {3, 0.6f}, {4, 0.9f}, {5, 0.3f}, {6, 0.2f}, {7, 0.9f}, {8, 0.6f}, {9, 0.3f}, {10, 0.7f},
+            {11, 0.6f}, {12, 0.4f}, {13, 0.1f}, {14, 0.3f}, {15, 0.8f}, {16, 0.5f}, {17, 0.3f}, {18, 0.7f}, {19, 0.9f}, {20, 0.4f}};
     /**
      * 后加的全局变量
      */
@@ -134,6 +132,10 @@ public class PrintActivity extends Activity implements View.OnClickListener {
     private PrinterHandler printHandler;
     BluetoothAdapter bluetoothAdapter;
     private final String TAG=getClass().getSimpleName();
+    private final String PATHNAME="com.gprinter.sample.printeractivity.pathname";
+    private SharedPreferences sharedPreferences=null;
+    private SharedPreferences.Editor editor;
+    private boolean flag=false;
     /**
      * 计数
      */
@@ -149,9 +151,6 @@ public class PrintActivity extends Activity implements View.OnClickListener {
         lineCharty.setDataList(mDataList);
         LineChart lineChartz = (LineChart) findViewById(R.id.lineChartz);
         lineChartz.setDataList(mDataList);
-
-//        initData2();
-//        lineChart.setDataList(mDataList);
         connection();
         /**
          * 注册广播
@@ -163,13 +162,15 @@ public class PrintActivity extends Activity implements View.OnClickListener {
         printHandler = new PrinterHandler();
         bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         checkPersiossion();
-
+        sharedPreferences=getSharedPreferences(PATHNAME,Context.MODE_PRIVATE);
+        editor=sharedPreferences.edit();
 //        cacheDirPath = getExternalCacheDir().getAbsolutePath();
 //        Log.e("LBH", cacheDirPath);测试缓存文件夹
+        Log.e("LBH","走你妹啊");
+
     }
 
     private void initView() {
-
         mSave = (TextView) findViewById(R.id.tv_save);
         mOpen = (TextView) findViewById(R.id.to_connect);
         mSaveArea = (LinearLayout) findViewById(R.id.ll_save_area);
@@ -211,7 +212,32 @@ public class PrintActivity extends Activity implements View.OnClickListener {
     @Override
     protected void onResume() {
         super.onResume();
+        Log.e("LBH","onResum外:path="+path);
+        Log.e("LBH","onResum外:flag="+flag);
+        if (path==null&&flag)
+        {
+            path=sharedPreferences.getString("path",null);
+            Log.e("LBH","onResum内:path="+path);
+        }
 
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.e("LBH","onpause:path="+path);
+        flag=true;
+        if (flag) {
+            editor.putString("path", path);
+            editor.commit();
+            path=null;
+        }
+
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.e("LBH","onRestart");
     }
 
     /**
@@ -228,30 +254,27 @@ public class PrintActivity extends Activity implements View.OnClickListener {
             if (!bluetoothAdapter.isEnabled()) {
                 bluetoothAdapter.enable();
             } else {
-                // Toast.makeText(this,"蓝牙已经打开",Toast.LENGTH_LONG).show();
             }
         }
         switch (v.getId()) {
             case R.id.tv_save:
                 mSave.setText("开始打印");
                 mSave.setEnabled(false);
-                new Thread(new Runnable() {
+                MyExcutorManager.getInstance().execute(new Runnable() {
                     @Override
                     public void run() {
                         if (path == null) {
-                             Log.e("LBH","screenshot="+path);
+                            Log.e("LBH","screenshot="+path);
                             Log.e("LBH", "screenshot");
                             screenshot();
-
                         } else {
                             Log.e("LBH", "goToPrint");
                             Looper.prepare();//如果不写就会报java.lang.RuntimeException: Can't create handler inside thread that has not called Looper.prepare()
                             goToPrint(path);
                             Looper.loop();//如果不写就会报java.lang.RuntimeException: Can't create handler inside thread that has not called Looper.prepare()
                         }
-
                     }
-                }).start();
+                });
                 break;
             case R.id.to_connect:
                 Intent intentConnect = new Intent(PrintActivity.this, PrinterConnectDialog.class);
@@ -336,37 +359,6 @@ public class PrintActivity extends Activity implements View.OnClickListener {
                 sendBroadcast(intent);
                // intent = new Intent(PrintActivity.this, MainActivity.class);
                 path = Uri.fromFile(file).getPath();
-//                /**
-//                 * 目前可以打印3个图片一次
-//                 */
-//                String path=Uri.fromFile(file).getPath();
-//                if (path!=null) {
-//                    if (i < 3){
-//                        list.add(path);
-//                        Message message = new Message();
-//                        message.what = SAVEZBZ;
-//                        successHandler.sendMessage(message);
-//                        i++;
-//                    }else if (i==3) {
-//                        intent.putStringArrayListExtra("imagepath",list);
-//                        Message message = new Message();
-//                        message.what = SAVESUCCEED;
-//                        successHandler.sendMessage(message);
-//                        startActivity(intent);
-//                    }else
-//                    {
-//                        return;
-//                    }
-//                }
-//                else
-//                {
-//                    Message message=new Message();
-//                    message.what=SAVEFAILED;
-//                    successHandler.sendMessage(message);
-//                }
-//                intent.putExtra("imagepath", path);
-//                startActivity(intent);
-
                 successHandler.sendMessage(Message.obtain());
 
             } catch (Exception e) {
@@ -390,6 +382,12 @@ public class PrintActivity extends Activity implements View.OnClickListener {
         esc.addSelectJustification(EscCommand.JUSTIFICATION.CENTER);// 设置打印居中
         esc.addSelectPrintModes(EscCommand.FONT.FONTA, EscCommand.ENABLE.OFF, EscCommand.ENABLE.ON, EscCommand.ENABLE.ON, EscCommand.ENABLE.OFF);// 设置为倍高倍宽
         esc.addText("Sample\n"); // 打印文字
+        Log.e("LBH","size="+mDataList.size());
+        for (int i=0;i<mDataList.size();i++)
+        {
+            Log.e("LBH",i+"="+mDataList.get(i));
+//            esc.addText(mDataList.get(i)+"\n");
+        }
         esc.addPrintAndLineFeed();
 
 		/* 打印文字 */
@@ -438,11 +436,8 @@ public class PrintActivity extends Activity implements View.OnClickListener {
         }
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
 
-    }
+
 
     /**
      * 成功动画handler
@@ -691,6 +686,9 @@ public class PrintActivity extends Activity implements View.OnClickListener {
         Log.e("LBH","onDestory");
         successHandler = null;
         printHandler = null;
+        editor.putString("path",null);
+        editor.commit();
+        editor=null;
         super.onDestroy();
     }
 }

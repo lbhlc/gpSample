@@ -443,6 +443,13 @@ public class PrinterConnectDialog extends Activity {
 				mPortParam[mPrinterId].setPortType(PortParameters.BLUETOOTH);
 				mPortParam[mPrinterId].setBluetoothAddr(address);
 				SetPortParamToView(mPortParam[mPrinterId]);
+				if (CheckPortParamters(mPortParam[mPrinterId])) {
+					PortParamDataBase database = new PortParamDataBase(this);
+					database.deleteDataBase("" + mPrinterId);
+					database.insertPortParam(mPrinterId, mPortParam[mPrinterId]);
+				} else {
+					messageBox(getString(R.string.port_parameters_wrong));
+				}
 			}
 
 		}
