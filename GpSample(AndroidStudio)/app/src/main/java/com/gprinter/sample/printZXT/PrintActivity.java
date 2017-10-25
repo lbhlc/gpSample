@@ -1,5 +1,4 @@
 package com.gprinter.sample.printZXT;
-
 import android.Manifest;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -240,7 +239,7 @@ public class PrintActivity extends Activity implements View.OnClickListener {
                     @Override
                     public void run() {
                         if (path == null) {
-
+                             Log.e("LBH","screenshot="+path);
                             Log.e("LBH", "screenshot");
                             screenshot();
 
@@ -402,7 +401,6 @@ public class PrintActivity extends Activity implements View.OnClickListener {
         esc.addSelectJustification(EscCommand.JUSTIFICATION.CENTER);// 设置打印左对齐
         esc.addText("Completed!\r\n"); // 打印结束
         printHandler.sendEmptyMessage(0);
-        Log.e("LBH", "打印完毕");
         // 开钱箱
         esc.addGeneratePlus(LabelCommand.FOOT.F5, (byte) 255, (byte) 255);
         esc.addPrintAndFeedLines((byte) 8);
@@ -438,6 +436,12 @@ public class PrintActivity extends Activity implements View.OnClickListener {
                     break;
             }
         }
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
     }
 
     /**
@@ -482,7 +486,7 @@ public class PrintActivity extends Activity implements View.OnClickListener {
         mPicGet.setImageBitmap(saveBitmap);
 
         ObjectAnimator paramsAnimator = ObjectAnimator.ofFloat(new Wrapper(mPicGet), "params", 1f, 0.7f);
-        paramsAnimator.setDuration(800);
+        paramsAnimator.setDuration(300);
         paramsAnimator.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationStart(Animator animation) {

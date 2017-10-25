@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Oct 25 11:01:19 CST 2017
+#Wed Oct 25 11:19:41 CST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=E\:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\switch_thumb_material_dark.xml

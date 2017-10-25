@@ -18,6 +18,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="lbh" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Unnamed-0" />
   </component>
@@ -30,25 +31,34 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PortConfigurationActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PortConfigurationActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PrinterConnectDialog$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PrinterConnectDialog$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PrinterConnectDialog$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PrinterConnectDialog$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PrinterConnectDialog$PrinterSeial.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PrinterConnectDialog$PrinterSeial.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PrinterConnectDialog$PrinterServiceConnection.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PrinterConnectDialog$PrinterServiceConnection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PrinterConnectDialog$TitelItemOnClickLisener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PrinterConnectDialog$TitelItemOnClickLisener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PrinterConnectDialog$TitelItemOnLongClickLisener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PrinterConnectDialog$TitelItemOnLongClickLisener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PrinterConnectDialog.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/PrinterConnectDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$3$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$3$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$3$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$InitHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$InitHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$PrinterHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$PrinterHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$PrinterServiceConnection.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$PrinterServiceConnection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$SuccessHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$SuccessHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$Wrapper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity$Wrapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/gprinter/sample/printZXT/PrintActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_b8197473f465f4a3dc6981eac7818d38ef7477c6.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_b8197473f465f4a3dc6981eac7818d38ef7477c6.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/gprinter/sample/PortConfigurationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/gprinter/sample/PortConfigurationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/gprinter/sample/PrinterConnectDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/gprinter/sample/PrinterConnectDialog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/gprinter/sample/printZXT/PrintActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/gprinter/sample/printZXT/PrintActivity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
+    <ignored path="gradle/" />
+    <ignored path=".idea/" />
+    <ignored path="build/" />
+    <ignored path="app/build/" />
+    <ignored path="local.properties" />
+    <ignored mask="*.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,16 +90,18 @@
       <file leaf-file-name="PrintActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gprinter/sample/printZXT/PrintActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2783">
-              <caret line="484" column="36" selection-start-line="484" selection-start-column="36" selection-end-line="484" selection-end-column="36" />
+            <state relative-caret-position="-456">
+              <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#onWindowFocusChanged#0;class#PrintActivity#0" expanded="false" />
                 <element signature="method#checkPersiossion#0;class#PrintActivity#0" expanded="false" />
+                <element signature="e#7392#8188#0" expanded="true" />
+                <element signature="e#8187#8188#0" expanded="true" />
                 <element signature="class#SuccessHandler#0;class#PrintActivity#0" expanded="false" />
                 <element signature="method#initData#0;class#PrintActivity#0" expanded="false" />
                 <element signature="method#pxTodp#0;class#PrintActivity#0" expanded="false" />
-                <element signature="e#21678#21707#0" expanded="true" />
+                <element signature="e#21786#21815#0" expanded="true" />
                 <element signature="method#connection#0;class#PrintActivity#0" expanded="false" />
               </folding>
             </state>
@@ -3161,7 +3173,7 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="AndroidTargetDevices" value="f5c2cc89" />
-    <property name="settings.editor.selected.configurable" value="instant.run" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -3570,7 +3582,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试下" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试下" />
+    <MESSAGE value="打印优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="打印优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3589,7 +3602,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/gprinter/sample/printZXT/PrintActivity.java</url>
-          <line>244</line>
+          <line>243</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
@@ -4032,16 +4045,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gprinter/sample/printZXT/PrintActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2783">
-          <caret line="484" column="36" selection-start-line="484" selection-start-column="36" selection-end-line="484" selection-end-column="36" />
+        <state relative-caret-position="-456">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#onWindowFocusChanged#0;class#PrintActivity#0" expanded="false" />
             <element signature="method#checkPersiossion#0;class#PrintActivity#0" expanded="false" />
+            <element signature="e#7392#8188#0" expanded="true" />
+            <element signature="e#8187#8188#0" expanded="true" />
             <element signature="class#SuccessHandler#0;class#PrintActivity#0" expanded="false" />
             <element signature="method#initData#0;class#PrintActivity#0" expanded="false" />
             <element signature="method#pxTodp#0;class#PrintActivity#0" expanded="false" />
-            <element signature="e#21678#21707#0" expanded="true" />
+            <element signature="e#21786#21815#0" expanded="true" />
             <element signature="method#connection#0;class#PrintActivity#0" expanded="false" />
           </folding>
         </state>
