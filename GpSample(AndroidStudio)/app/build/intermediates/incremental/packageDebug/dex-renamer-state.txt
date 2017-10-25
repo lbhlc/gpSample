@@ -1,4 +1,4 @@
-#Wed Oct 25 10:23:54 CST 2017
+#Wed Oct 25 11:01:19 CST 2017
 base.0=E\:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=E\:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

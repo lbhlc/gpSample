@@ -36,8 +36,11 @@ import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import static com.gprinter.sample.PortConfigurationActivity.EXTRA_DEVICE_ADDRESS;
 import static com.gprinter.sample.PortConfigurationActivity.REQUEST_CONNECT_DEVICE;
 import static com.gprinter.sample.PortConfigurationActivity.REQUEST_ENABLE_BT;
+import static com.sample.R.id.add;
+import static com.sample.R.id.tvPortInfo;
 
 public class PrinterConnectDialog extends Activity {
 	private final static String DEBUG_TAG = "SamleApp";
@@ -244,6 +247,7 @@ public class PrinterConnectDialog extends Activity {
 			map.put(ListViewAdapter.IMG, PrinterImage[i]);
 			map.put(ListViewAdapter.TITEL, getString(PrinterID[i]));
 			if (mPortParam[i].getPortOpenState() == false)
+
 				map.put(ListViewAdapter.STATUS, getString(R.string.connect));
 			else
 				map.put(ListViewAdapter.STATUS, getString(R.string.cut));
@@ -272,11 +276,12 @@ public class PrinterConnectDialog extends Activity {
 		public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
 			// TODO Auto-generated method stub]
 			mPrinterId = arg2;
-			Intent intent = new Intent(PrinterConnectDialog.this, PortConfigurationActivity.class);
-			startActivityForResult(intent, INTENT_PORT_SETTINGS);
+//			Intent intent = new Intent(PrinterConnectDialog.this, PortConfigurationActivity.class);
+//			startActivityForResult(intent, INTENT_PORT_SETTINGS);
+			getBluetoothDevice();
 		}
 	}
-	
+
 
 	void connectOrDisConnectToDevice(int PrinterId) {
 		mPrinterId = PrinterId;
@@ -381,6 +386,14 @@ public class PrinterConnectDialog extends Activity {
 		return rel;
 	}
 
+	/**
+	 * 10月25日修改从433行-443行为新增的
+	 * 另外407行也进行了修改
+	 * 原来为mPortParam[mPrinterId].setPortType(param);
+	 * @param requestCode
+	 * @param resultCode
+	 * @param data
+	 */
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		// TODO Auto-generated method stub
@@ -393,7 +406,7 @@ public class PrinterConnectDialog extends Activity {
 				bundle = data.getExtras();
 				Log.d(DEBUG_TAG, "PrinterId " + mPrinterId);
 				int param = bundle.getInt(GpPrintService.PORT_TYPE);
-				mPortParam[mPrinterId].setPortType(param);
+				mPortParam[mPrinterId].setPortType(PortParameters.BLUETOOTH);
 				Log.d(DEBUG_TAG, "PortType " + param);
 				String str = bundle.getString(GpPrintService.IP_ADDR);
 				mPortParam[mPrinterId].setIpAddr(str);
@@ -419,6 +432,19 @@ public class PrinterConnectDialog extends Activity {
 			} else {
 				messageBox(getString(R.string.port_parameters_is_not_save));
 			}
+		} else if (requestCode == REQUEST_CONNECT_DEVICE) {
+			Log.e("LBH","REQUEST_CONNECT_DEVICE 进入该方法了");
+			if (resultCode == Activity.RESULT_OK) {
+				// Get the device MAC address
+				String address = data.getExtras().getString(
+						EXTRA_DEVICE_ADDRESS);
+				// fill in some parameters
+				Log.e("LBH","REQUEST_CONNECT_DEVICE="+address);
+				mPortParam[mPrinterId].setPortType(PortParameters.BLUETOOTH);
+				mPortParam[mPrinterId].setBluetoothAddr(address);
+				SetPortParamToView(mPortParam[mPrinterId]);
+			}
+
 		}
 	}
 

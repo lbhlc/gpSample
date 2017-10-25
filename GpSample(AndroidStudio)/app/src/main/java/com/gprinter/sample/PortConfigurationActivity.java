@@ -179,6 +179,11 @@ public class PortConfigurationActivity extends Activity {
 		}
 	}
 
+	/**
+	 * 无用方法
+	 * @param view
+	 */
+
 	public void okButtonClicked(View view) {
 		String ipAddress = etIpAddress.getText().toString();
 		String portNum = etPortNum.getText().toString();
