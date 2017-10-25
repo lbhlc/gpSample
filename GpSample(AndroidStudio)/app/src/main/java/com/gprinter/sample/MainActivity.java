@@ -1,8 +1,5 @@
 package com.gprinter.sample;
-
-import java.util.ArrayList;
 import java.util.Vector;
-
 import com.gprinter.aidl.GpService;
 import com.gprinter.command.EscCommand;
 import com.gprinter.command.EscCommand.CODEPAGE;
@@ -26,8 +23,8 @@ import com.gprinter.command.LabelCommand.ROTATION;
 import com.gprinter.io.GpDevice;
 import com.gprinter.service.GpPrintService;
 import com.sample.R;
-
 import android.app.Activity;
+import android.bluetooth.BluetoothAdapter;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
@@ -47,7 +44,6 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.Toast;
-
 public class MainActivity extends Activity {
     private GpService mGpService = null;
     public static final String CONNECT_STATUS = "connect.status";
@@ -58,7 +54,9 @@ public class MainActivity extends Activity {
     private static final int MAIN_QUERY_PRINTER_STATUS = 0xfe;
     private static final int REQUEST_PRINT_LABEL = 0xfd;
     private static final int REQUEST_PRINT_RECEIPT = 0xfc;
-//    private String string=null;
+    private BluetoothAdapter bluetoothAdapter;
+
+    private String path;
 
     class PrinterServiceConnection implements ServiceConnection {
         @Override
@@ -161,14 +159,14 @@ public class MainActivity extends Activity {
         }
     };
 
-    ArrayList<String>list=new ArrayList<>();
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.e(DEBUG_TAG, "onCreate");
-        list=getIntent().getStringArrayListExtra("imagepath");
-        Log.e("MAIN",list.size()+"");
+//        list=getIntent().getStringArrayListExtra("imagepath");
+//        Log.e("MAIN",list.size()+"");
+        path=getIntent().getStringExtra("imagepath");
         connection();
         CheckBox checkbox = (CheckBox) findViewById(R.id.btCheckBox);
         checkbox.setOnCheckedChangeListener(new OnCheckedChangeListener() {
@@ -199,6 +197,7 @@ public class MainActivity extends Activity {
          **/
         registerReceiver(mBroadcastReceiver, new IntentFilter(GpCom.ACTION_LABEL_RESPONSE));
         registerReceiver(mBroadcastReceiver, new IntentFilter(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE));
+        bluetoothAdapter=BluetoothAdapter.getDefaultAdapter();
     }
 
     private void connection() {
@@ -229,6 +228,19 @@ public class MainActivity extends Activity {
             Toast.makeText(this, "Print Service is not start, please check it", Toast.LENGTH_SHORT).show();
             return;
         }
+        if (bluetoothAdapter==null)
+        {
+            return;
+        }else
+        {
+            if (!bluetoothAdapter.isEnabled())
+            {
+                bluetoothAdapter.enable();
+            }else
+            {
+                Toast.makeText(this,"蓝牙已经打开",Toast.LENGTH_LONG).show();
+            }
+        }
         Log.d(DEBUG_TAG, "openPortConfigurationDialog ");
         Intent intent = new Intent(this, PrinterConnectDialog.class);
         boolean[] state = getConnectState();
@@ -236,18 +248,18 @@ public class MainActivity extends Activity {
         this.startActivity(intent);
     }
 
-    public void printTestPageClicked(View view) {
-        try {
-            int rel = mGpService.printeTestPage(mPrinterIndex); //
-            Log.i("ServiceConnection", "rel " + rel);
-            GpCom.ERROR_CODE r = GpCom.ERROR_CODE.values()[rel];
-            if (r != GpCom.ERROR_CODE.SUCCESS) {
-                Toast.makeText(getApplicationContext(), GpCom.getErrorText(r), Toast.LENGTH_SHORT).show();
-            }
-        } catch (RemoteException e1) {
-            e1.printStackTrace();
-        }
-    }
+//    public void printTestPageClicked(View view) {
+//        try {
+//            int rel = mGpService.printeTestPage(mPrinterIndex); //
+//            Log.i("ServiceConnection", "rel " + rel);
+//            GpCom.ERROR_CODE r = GpCom.ERROR_CODE.values()[rel];
+//            if (r != GpCom.ERROR_CODE.SUCCESS) {
+//                Toast.makeText(getApplicationContext(), GpCom.getErrorText(r), Toast.LENGTH_SHORT).show();
+//            }
+//        } catch (RemoteException e1) {
+//            e1.printStackTrace();
+//        }
+//    }
 
     public void getPrinterStatusClicked(View view) {
         try {
@@ -337,12 +349,15 @@ public class MainActivity extends Activity {
 		/* 打印图片 */
         esc.addText("Print bitmap!\n"); // 打印文字
       //  Bitmap b = BitmapFactory.decodeResource(getResources(), R.drawable.gprinter);
-        for (int i=0;i<list.size();i++) {
-            Log.e("LBH",list.get(i));
-            Bitmap bitmap = BitmapFactory.decodeFile(list.get(i));
-            esc.addRastBitImage(bitmap, 384, 0); // 打印图片
-        }
-
+        /**
+//        for (int i=0;i<list.size();i++) {
+//            Log.e("LBH",list.get(i));
+//            Bitmap bitmap = BitmapFactory.decodeFile(list.get(i));
+//            esc.addRastBitImage(bitmap, 384, 0); // 打印图片
+//        }
+*/
+        Bitmap bitmap=BitmapFactory.decodeFile(path);
+        esc.addRastBitImage(bitmap, 384, 0);
 //		/* 打印一维条码 */
 //        esc.addText("Print code128\n"); // 打印文字
 //        esc.addSelectPrintingPositionForHRICharacters(HRI_POSITION.BELOW);//

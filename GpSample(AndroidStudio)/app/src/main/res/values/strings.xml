@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">GpSample</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
@@ -83,8 +82,7 @@
     <string name="loading">Loading...</string>
     <string name="cancel">Cancel</string>
     <string name="copy_right_en">COPYRIGHT@2017 GPRINTER ALL RIGHTS RESERVERD</string>
-    <string name="copy_right_cn">佳博集团 版权所有</string>
-
+    <string name="copy_right_cn">沈阳天眼智云信息科技有限公司</string>
     <string name="error_configuration">Please configure your serial port first.</string>
     <string name="error_security">You do not have read/write permission to the serial
         port.</string>
@@ -121,5 +119,8 @@
     <string name="str_all_white">All White</string>
     <string name="str_recovery">Recovery</string>
     <string name="str_us_cn">chlish</string>
-
+    <string name="friendlyreminder">友情提示</string>
+    <string name="toOpenbluetoothOrNot">是否去打开蓝牙</string>
+    <string name="waitAmoment">再等等</string>
+    <string name="toOpen">去打开</string>
 </resources>

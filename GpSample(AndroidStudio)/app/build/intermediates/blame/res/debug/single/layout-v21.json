@@ -1,34 +1,18 @@
 [
     {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Administrator.PC-20170906YNBG\\.android\\build-cache\\2941f2101cc18e4db096102e369b6d7b900cb1d7\\output\\res\\layout-v21\\notification_action.xml"
-    },
-    {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Administrator.PC-20170906YNBG\\.android\\build-cache\\2941f2101cc18e4db096102e369b6d7b900cb1d7\\output\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
         "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Administrator.PC-20170906YNBG\\.android\\build-cache\\2941f2101cc18e4db096102e369b6d7b900cb1d7\\output\\res\\layout-v21\\notification_action.xml"
+        "source": "C:\\Users\\Administrator.PC-20170906YNBG\\.android\\build-cache\\91f82f688b487083f060e9b71b4bfa764929d9d9\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
         "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Administrator.PC-20170906YNBG\\.android\\build-cache\\2941f2101cc18e4db096102e369b6d7b900cb1d7\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "source": "C:\\Users\\Administrator.PC-20170906YNBG\\.android\\build-cache\\91f82f688b487083f060e9b71b4bfa764929d9d9\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Administrator.PC-20170906YNBG\\.android\\build-cache\\2941f2101cc18e4db096102e369b6d7b900cb1d7\\output\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Administrator.PC-20170906YNBG\\.android\\build-cache\\2941f2101cc18e4db096102e369b6d7b900cb1d7\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "source": "C:\\Users\\Administrator.PC-20170906YNBG\\.android\\build-cache\\91f82f688b487083f060e9b71b4bfa764929d9d9\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Administrator.PC-20170906YNBG\\.android\\build-cache\\2941f2101cc18e4db096102e369b6d7b900cb1d7\\output\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Administrator.PC-20170906YNBG\\.android\\build-cache\\2941f2101cc18e4db096102e369b6d7b900cb1d7\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+        "source": "C:\\Users\\Administrator.PC-20170906YNBG\\.android\\build-cache\\91f82f688b487083f060e9b71b4bfa764929d9d9\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     }
 ]

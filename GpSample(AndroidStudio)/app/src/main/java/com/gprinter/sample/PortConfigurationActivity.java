@@ -29,7 +29,7 @@ public class PortConfigurationActivity extends Activity {
 	private EditText       etIpAddress, etPortNum;
 	// Return Intent extra
 
-	public static       String EXTRA_DEVICE_ADDRESS   = "device_address";
+	public static     final   String EXTRA_DEVICE_ADDRESS   = "device_address";
 	public static final int    REQUEST_ENABLE_BT      = 2;
 	public static final int    REQUEST_CONNECT_DEVICE = 3;
 	public static final int    REQUEST_USB_DEVICE     = 4;
@@ -68,7 +68,7 @@ public class PortConfigurationActivity extends Activity {
 				err, Toast.LENGTH_SHORT).show();
 	}
 
-	class USBRaidoOnClickListener implements OnClickListener {
+	private class USBRaidoOnClickListener implements OnClickListener {
 		@Override
 		public void onClick(View arg0) {
 			// TODO Auto-generated method stub
@@ -80,7 +80,7 @@ public class PortConfigurationActivity extends Activity {
 		}
 	}
 
-	class BluetoothRaidoOnClickListener implements OnClickListener {
+	private class BluetoothRaidoOnClickListener implements OnClickListener {
 		@Override
 		public void onClick(View arg0) {
 			// TODO Auto-generated method stub
@@ -92,7 +92,7 @@ public class PortConfigurationActivity extends Activity {
 		}
 	}
 
-	class EthernetRaidoOnClickListener implements OnClickListener {
+	private class EthernetRaidoOnClickListener implements OnClickListener {
 		@Override
 		public void onClick(View arg0) {
 			// TODO Auto-generated method stub
@@ -182,8 +182,9 @@ public class PortConfigurationActivity extends Activity {
 	public void okButtonClicked(View view) {
 		String ipAddress = etIpAddress.getText().toString();
 		String portNum = etPortNum.getText().toString();
+		int num=Integer.parseInt(portNum);
 		mPortParam.setIpAddr(ipAddress);
-		mPortParam.setPortNumber(Integer.valueOf(portNum));
+		mPortParam.setPortNumber((num));
 		Intent intent = new Intent(this, PrinterConnectDialog.class);
 		Bundle bundle = new Bundle();
 		bundle.putInt(GpPrintService.PORT_TYPE, mPortParam.getPortType());

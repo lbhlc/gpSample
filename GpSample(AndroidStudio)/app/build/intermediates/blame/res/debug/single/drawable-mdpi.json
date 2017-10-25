@@ -1,19 +1,11 @@
 [
     {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\android_logo.png",
-        "source": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-mdpi\\android_logo.png"
-    },
-    {
         "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\zxt.png",
         "source": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-mdpi\\zxt.png"
     },
     {
         "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\android_logo.png",
         "source": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-mdpi\\android_logo.png"
-    },
-    {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_printer.png",
-        "source": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-mdpi\\ic_printer.png"
     },
     {
         "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_printer.png",
@@ -28,39 +20,15 @@
         "source": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\labelprint.png",
-        "source": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-mdpi\\labelprint.png"
-    },
-    {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\launcher.png",
-        "source": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-mdpi\\launcher.png"
-    },
-    {
         "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\launcher.png",
         "source": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-mdpi\\launcher.png"
-    },
-    {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\zxt3.png",
-        "source": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-mdpi\\zxt3.png"
     },
     {
         "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\zxttest.png",
         "source": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-mdpi\\zxttest.png"
     },
     {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\zxt.png",
-        "source": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-mdpi\\zxt.png"
-    },
-    {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
-        "source": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\labelprint.png",
         "source": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-mdpi\\labelprint.png"
-    },
-    {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\zxttest.png",
-        "source": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-mdpi\\zxttest.png"
     }
 ]

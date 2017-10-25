@@ -1,19 +1,23 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 25
     buildToolsVersion '26.0.1'
 
     defaultConfig {
         applicationId "com.sample"
         minSdkVersion 15
-        targetSdkVersion 26
+        targetSdkVersion 25
     }
 
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug{
+            minifyEnabled false
+            debuggable true
         }
     }
 }
@@ -24,5 +28,5 @@ dependencies {
     compile files('libs/ksoap2-android-assembly-2.5.2-jar-with-dependencies.jar')
     compile files('libs/xUtils-2.6.14.jar')
     compile project(':smallchart')
-    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support:appcompat-v7:25.+'
 }

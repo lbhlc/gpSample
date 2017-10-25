@@ -254,8 +254,8 @@
                     "startLine": 15,
                     "startColumn": 4,
                     "startOffset": 736,
-                    "endColumn": 51,
-                    "endOffset": 783
+                    "endColumn": 56,
+                    "endOffset": 788
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -263,8 +263,8 @@
                         "startLine": 70,
                         "startColumn": 4,
                         "startOffset": 3769,
-                        "endColumn": 51,
-                        "endOffset": 3816
+                        "endColumn": 56,
+                        "endOffset": 3821
                     }
                 }
             },
@@ -272,9 +272,9 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 788,
+                    "startOffset": 793,
                     "endColumn": 86,
-                    "endOffset": 870
+                    "endOffset": 875
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -291,9 +291,9 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 875,
+                    "startOffset": 880,
                     "endColumn": 59,
-                    "endOffset": 930
+                    "endOffset": 935
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -310,9 +310,9 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 935,
+                    "startOffset": 940,
                     "endColumn": 39,
-                    "endOffset": 970
+                    "endOffset": 975
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -329,9 +329,9 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 975,
+                    "startOffset": 980,
                     "endColumn": 49,
-                    "endOffset": 1020
+                    "endOffset": 1025
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -348,9 +348,9 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1025,
+                    "startOffset": 1030,
                     "endColumn": 62,
-                    "endOffset": 1083
+                    "endOffset": 1088
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -367,9 +367,9 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1088,
+                    "startOffset": 1093,
                     "endColumn": 52,
-                    "endOffset": 1136
+                    "endOffset": 1141
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -386,9 +386,9 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1141,
+                    "startOffset": 1146,
                     "endColumn": 49,
-                    "endOffset": 1186
+                    "endOffset": 1191
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -405,9 +405,9 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1191,
+                    "startOffset": 1196,
                     "endColumn": 57,
-                    "endOffset": 1244
+                    "endOffset": 1249
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -424,9 +424,9 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1249,
+                    "startOffset": 1254,
                     "endColumn": 51,
-                    "endOffset": 1296
+                    "endOffset": 1301
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1301,
+                    "startOffset": 1306,
                     "endColumn": 88,
-                    "endOffset": 1385
+                    "endOffset": 1390
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 72,
                         "startColumn": 4,
-                        "startOffset": 3828,
+                        "startOffset": 3833,
                         "endColumn": 88,
-                        "endOffset": 3912
+                        "endOffset": 3917
                     }
                 }
             },
@@ -462,20 +462,20 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1390,
+                    "startOffset": 1395,
                     "endLine": 27,
                     "endColumn": 16,
-                    "endOffset": 1488
+                    "endOffset": 1493
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 73,
                         "startColumn": 4,
-                        "startOffset": 3918,
+                        "startOffset": 3923,
                         "endLine": 74,
                         "endColumn": 16,
-                        "endOffset": 4017
+                        "endOffset": 4022
                     }
                 }
             },
@@ -483,20 +483,20 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 1493,
+                    "startOffset": 1498,
                     "endLine": 29,
                     "endColumn": 18,
-                    "endOffset": 1589
+                    "endOffset": 1594
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 75,
                         "startColumn": 4,
-                        "startOffset": 4023,
+                        "startOffset": 4028,
                         "endLine": 76,
                         "endColumn": 18,
-                        "endOffset": 4120
+                        "endOffset": 4125
                     }
                 }
             },
@@ -504,9 +504,9 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 1594,
+                    "startOffset": 1599,
                     "endColumn": 39,
-                    "endOffset": 1629
+                    "endOffset": 1634
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -523,9 +523,9 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 1634,
+                    "startOffset": 1639,
                     "endColumn": 45,
-                    "endOffset": 1675
+                    "endOffset": 1680
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -542,9 +542,9 @@
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 1680,
+                    "startOffset": 1685,
                     "endColumn": 62,
-                    "endOffset": 1738
+                    "endOffset": 1743
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -561,9 +561,9 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 1743,
+                    "startOffset": 1748,
                     "endColumn": 51,
-                    "endOffset": 1790
+                    "endOffset": 1795
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -580,9 +580,9 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 1795,
+                    "startOffset": 1800,
                     "endColumn": 51,
-                    "endOffset": 1842
+                    "endOffset": 1847
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -599,9 +599,9 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 1847,
+                    "startOffset": 1852,
                     "endColumn": 51,
-                    "endOffset": 1894
+                    "endOffset": 1899
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -618,9 +618,9 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 1899,
+                    "startOffset": 1904,
                     "endColumn": 51,
-                    "endOffset": 1946
+                    "endOffset": 1951
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -637,9 +637,9 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 1951,
+                    "startOffset": 1956,
                     "endColumn": 51,
-                    "endOffset": 1998
+                    "endOffset": 2003
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -656,9 +656,9 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 2003,
+                    "startOffset": 2008,
                     "endColumn": 51,
-                    "endOffset": 2050
+                    "endOffset": 2055
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -675,9 +675,9 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 2055,
+                    "startOffset": 2060,
                     "endColumn": 51,
-                    "endOffset": 2102
+                    "endOffset": 2107
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -694,9 +694,9 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 2107,
+                    "startOffset": 2112,
                     "endColumn": 51,
-                    "endOffset": 2154
+                    "endOffset": 2159
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -713,9 +713,9 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 2159,
+                    "startOffset": 2164,
                     "endColumn": 51,
-                    "endOffset": 2206
+                    "endOffset": 2211
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -732,9 +732,9 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 2211,
+                    "startOffset": 2216,
                     "endColumn": 51,
-                    "endOffset": 2258
+                    "endOffset": 2263
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -751,9 +751,9 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 2263,
+                    "startOffset": 2268,
                     "endColumn": 51,
-                    "endOffset": 2310
+                    "endOffset": 2315
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -770,9 +770,9 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 2315,
+                    "startOffset": 2320,
                     "endColumn": 51,
-                    "endOffset": 2362
+                    "endOffset": 2367
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -789,9 +789,9 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 2367,
+                    "startOffset": 2372,
                     "endColumn": 51,
-                    "endOffset": 2414
+                    "endOffset": 2419
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -808,9 +808,9 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 2419,
+                    "startOffset": 2424,
                     "endColumn": 51,
-                    "endOffset": 2466
+                    "endOffset": 2471
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -827,9 +827,9 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 2471,
+                    "startOffset": 2476,
                     "endColumn": 51,
-                    "endOffset": 2518
+                    "endOffset": 2523
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -846,9 +846,9 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 2523,
+                    "startOffset": 2528,
                     "endColumn": 51,
-                    "endOffset": 2570
+                    "endOffset": 2575
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -865,9 +865,9 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 2575,
+                    "startOffset": 2580,
                     "endColumn": 51,
-                    "endOffset": 2622
+                    "endOffset": 2627
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -884,9 +884,9 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 2627,
+                    "startOffset": 2632,
                     "endColumn": 51,
-                    "endOffset": 2674
+                    "endOffset": 2679
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -903,9 +903,9 @@
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 2679,
+                    "startOffset": 2684,
                     "endColumn": 51,
-                    "endOffset": 2726
+                    "endOffset": 2731
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -922,9 +922,9 @@
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 2731,
+                    "startOffset": 2736,
                     "endColumn": 51,
-                    "endOffset": 2778
+                    "endOffset": 2783
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
@@ -941,9 +941,9 @@
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 2783,
+                    "startOffset": 2788,
                     "endColumn": 52,
-                    "endOffset": 2831
+                    "endOffset": 2836
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -960,9 +960,9 @@
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 2836,
+                    "startOffset": 2841,
                     "endColumn": 72,
-                    "endOffset": 2904
+                    "endOffset": 2909
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -979,9 +979,9 @@
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 2909,
+                    "startOffset": 2914,
                     "endColumn": 42,
-                    "endOffset": 2947
+                    "endOffset": 2952
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -998,9 +998,9 @@
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 2952,
+                    "startOffset": 2957,
                     "endColumn": 46,
-                    "endOffset": 2994
+                    "endOffset": 2999
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1017,9 +1017,9 @@
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 2999,
+                    "startOffset": 3004,
                     "endColumn": 83,
-                    "endOffset": 3078
+                    "endOffset": 3083
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1036,9 +1036,9 @@
                 "to": {
                     "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 3083,
+                    "startOffset": 3088,
                     "endColumn": 51,
-                    "endOffset": 3130
+                    "endOffset": 3135
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1055,9 +1055,9 @@
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 3135,
+                    "startOffset": 3140,
                     "endColumn": 69,
-                    "endOffset": 3200
+                    "endOffset": 3205
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1074,9 +1074,9 @@
                 "to": {
                     "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 3205,
+                    "startOffset": 3210,
                     "endColumn": 45,
-                    "endOffset": 3246
+                    "endOffset": 3251
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1093,9 +1093,9 @@
                 "to": {
                     "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 3251,
+                    "startOffset": 3256,
                     "endColumn": 33,
-                    "endOffset": 3280
+                    "endOffset": 3285
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1112,9 +1112,9 @@
                 "to": {
                     "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 3285,
+                    "startOffset": 3290,
                     "endColumn": 42,
-                    "endOffset": 3323
+                    "endOffset": 3328
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1131,9 +1131,9 @@
                 "to": {
                     "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 3328,
+                    "startOffset": 3333,
                     "endColumn": 54,
-                    "endOffset": 3378
+                    "endOffset": 3383
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1150,9 +1150,9 @@
                 "to": {
                     "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 3383,
+                    "startOffset": 3388,
                     "endColumn": 38,
-                    "endOffset": 3417
+                    "endOffset": 3422
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1169,9 +1169,9 @@
                 "to": {
                     "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 3422,
+                    "startOffset": 3427,
                     "endColumn": 65,
-                    "endOffset": 3483
+                    "endOffset": 3488
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1188,9 +1188,9 @@
                 "to": {
                     "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 3488,
+                    "startOffset": 3493,
                     "endColumn": 45,
-                    "endOffset": 3529
+                    "endOffset": 3534
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1207,9 +1207,9 @@
                 "to": {
                     "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 3534,
+                    "startOffset": 3539,
                     "endColumn": 85,
-                    "endOffset": 3615
+                    "endOffset": 3620
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1226,9 +1226,9 @@
                 "to": {
                     "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 3620,
+                    "startOffset": 3625,
                     "endColumn": 69,
-                    "endOffset": 3685
+                    "endOffset": 3690
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1245,9 +1245,9 @@
                 "to": {
                     "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 3690,
+                    "startOffset": 3695,
                     "endColumn": 61,
-                    "endOffset": 3747
+                    "endOffset": 3752
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1264,9 +1264,9 @@
                 "to": {
                     "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 3752,
+                    "startOffset": 3757,
                     "endColumn": 52,
-                    "endOffset": 3800
+                    "endOffset": 3805
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1283,9 +1283,9 @@
                 "to": {
                     "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 3805,
+                    "startOffset": 3810,
                     "endColumn": 49,
-                    "endOffset": 3850
+                    "endOffset": 3855
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1302,9 +1302,9 @@
                 "to": {
                     "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 3855,
+                    "startOffset": 3860,
                     "endColumn": 49,
-                    "endOffset": 3900
+                    "endOffset": 3905
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1321,9 +1321,9 @@
                 "to": {
                     "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 3905,
+                    "startOffset": 3910,
                     "endColumn": 46,
-                    "endOffset": 3947
+                    "endOffset": 3952
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1340,9 +1340,9 @@
                 "to": {
                     "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 3952,
+                    "startOffset": 3957,
                     "endColumn": 49,
-                    "endOffset": 3997
+                    "endOffset": 4002
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1359,9 +1359,9 @@
                 "to": {
                     "startLine": 75,
                     "startColumn": 4,
-                    "startOffset": 4002,
+                    "startOffset": 4007,
                     "endColumn": 73,
-                    "endOffset": 4071
+                    "endOffset": 4076
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1378,9 +1378,9 @@
                 "to": {
                     "startLine": 76,
                     "startColumn": 4,
-                    "startOffset": 4076,
+                    "startOffset": 4081,
                     "endColumn": 66,
-                    "endOffset": 4138
+                    "endOffset": 4143
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1397,9 +1397,9 @@
                 "to": {
                     "startLine": 77,
                     "startColumn": 4,
-                    "startOffset": 4143,
+                    "startOffset": 4148,
                     "endColumn": 37,
-                    "endOffset": 4176
+                    "endOffset": 4181
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1416,9 +1416,9 @@
                 "to": {
                     "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 4181,
+                    "startOffset": 4186,
                     "endColumn": 43,
-                    "endOffset": 4220
+                    "endOffset": 4225
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1435,9 +1435,9 @@
                 "to": {
                     "startLine": 79,
                     "startColumn": 4,
-                    "startOffset": 4225,
+                    "startOffset": 4230,
                     "endColumn": 75,
-                    "endOffset": 4296
+                    "endOffset": 4301
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -1454,18 +1454,18 @@
                 "to": {
                     "startLine": 80,
                     "startColumn": 4,
-                    "startOffset": 4301,
+                    "startOffset": 4306,
                     "endColumn": 51,
-                    "endOffset": 4348
+                    "endOffset": 4353
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 104,
                         "startColumn": 4,
-                        "startOffset": 5935,
+                        "startOffset": 5940,
                         "endColumn": 51,
-                        "endOffset": 5982
+                        "endOffset": 5987
                     }
                 }
             },
@@ -1473,18 +1473,18 @@
                 "to": {
                     "startLine": 81,
                     "startColumn": 4,
-                    "startOffset": 4353,
+                    "startOffset": 4358,
                     "endColumn": 51,
-                    "endOffset": 4400
+                    "endOffset": 4405
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 105,
                         "startColumn": 4,
-                        "startOffset": 5988,
+                        "startOffset": 5993,
                         "endColumn": 51,
-                        "endOffset": 6035
+                        "endOffset": 6040
                     }
                 }
             },
@@ -1492,18 +1492,18 @@
                 "to": {
                     "startLine": 82,
                     "startColumn": 4,
-                    "startOffset": 4405,
+                    "startOffset": 4410,
                     "endColumn": 63,
-                    "endOffset": 4464
+                    "endOffset": 4469
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 81,
                         "startColumn": 4,
-                        "startOffset": 4356,
+                        "startOffset": 4361,
                         "endColumn": 63,
-                        "endOffset": 4415
+                        "endOffset": 4420
                     }
                 }
             },
@@ -1511,18 +1511,18 @@
                 "to": {
                     "startLine": 83,
                     "startColumn": 4,
-                    "startOffset": 4469,
+                    "startOffset": 4474,
                     "endColumn": 43,
-                    "endOffset": 4508
+                    "endOffset": 4513
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 77,
                         "startColumn": 4,
-                        "startOffset": 4126,
+                        "startOffset": 4131,
                         "endColumn": 43,
-                        "endOffset": 4165
+                        "endOffset": 4170
                     }
                 }
             },
@@ -1530,18 +1530,18 @@
                 "to": {
                     "startLine": 84,
                     "startColumn": 4,
-                    "startOffset": 4513,
+                    "startOffset": 4518,
                     "endColumn": 53,
-                    "endOffset": 4562
+                    "endOffset": 4567
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 101,
                         "startColumn": 4,
-                        "startOffset": 5770,
+                        "startOffset": 5775,
                         "endColumn": 53,
-                        "endOffset": 5819
+                        "endOffset": 5824
                     }
                 }
             },
@@ -1549,18 +1549,18 @@
                 "to": {
                     "startLine": 85,
                     "startColumn": 4,
-                    "startOffset": 4567,
+                    "startOffset": 4572,
                     "endColumn": 49,
-                    "endOffset": 4612
+                    "endOffset": 4617
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 98,
                         "startColumn": 4,
-                        "startOffset": 5595,
+                        "startOffset": 5600,
                         "endColumn": 49,
-                        "endOffset": 5640
+                        "endOffset": 5645
                     }
                 }
             },
@@ -1568,18 +1568,18 @@
                 "to": {
                     "startLine": 86,
                     "startColumn": 4,
-                    "startOffset": 4617,
+                    "startOffset": 4622,
                     "endColumn": 61,
-                    "endOffset": 4674
+                    "endOffset": 4679
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 84,
                         "startColumn": 4,
-                        "startOffset": 4571,
+                        "startOffset": 4576,
                         "endColumn": 61,
-                        "endOffset": 4628
+                        "endOffset": 4633
                     }
                 }
             },
@@ -1587,18 +1587,18 @@
                 "to": {
                     "startLine": 87,
                     "startColumn": 4,
-                    "startOffset": 4679,
+                    "startOffset": 4684,
                     "endColumn": 66,
-                    "endOffset": 4741
+                    "endOffset": 4746
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 87,
                         "startColumn": 4,
-                        "startOffset": 4802,
+                        "startOffset": 4807,
                         "endColumn": 66,
-                        "endOffset": 4864
+                        "endOffset": 4869
                     }
                 }
             },
@@ -1606,18 +1606,18 @@
                 "to": {
                     "startLine": 88,
                     "startColumn": 4,
-                    "startOffset": 4746,
+                    "startOffset": 4751,
                     "endColumn": 75,
-                    "endOffset": 4817
+                    "endOffset": 4822
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 88,
                         "startColumn": 4,
-                        "startOffset": 4870,
+                        "startOffset": 4875,
                         "endColumn": 75,
-                        "endOffset": 4941
+                        "endOffset": 4946
                     }
                 }
             },
@@ -1625,18 +1625,18 @@
                 "to": {
                     "startLine": 89,
                     "startColumn": 4,
-                    "startOffset": 4822,
+                    "startOffset": 4827,
                     "endColumn": 71,
-                    "endOffset": 4889
+                    "endOffset": 4894
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 90,
                         "startColumn": 4,
-                        "startOffset": 4994,
+                        "startOffset": 4999,
                         "endColumn": 71,
-                        "endOffset": 5061
+                        "endOffset": 5066
                     }
                 }
             },
@@ -1644,18 +1644,18 @@
                 "to": {
                     "startLine": 90,
                     "startColumn": 4,
-                    "startOffset": 4894,
+                    "startOffset": 4899,
                     "endColumn": 69,
-                    "endOffset": 4959
+                    "endOffset": 4964
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 91,
                         "startColumn": 4,
-                        "startOffset": 5067,
+                        "startOffset": 5072,
                         "endColumn": 69,
-                        "endOffset": 5132
+                        "endOffset": 5137
                     }
                 }
             },
@@ -1663,18 +1663,18 @@
                 "to": {
                     "startLine": 91,
                     "startColumn": 4,
-                    "startOffset": 4964,
+                    "startOffset": 4969,
                     "endColumn": 97,
-                    "endOffset": 5057
+                    "endOffset": 5062
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 92,
                         "startColumn": 4,
-                        "startOffset": 5138,
+                        "startOffset": 5143,
                         "endColumn": 97,
-                        "endOffset": 5231
+                        "endOffset": 5236
                     }
                 }
             },
@@ -1682,18 +1682,18 @@
                 "to": {
                     "startLine": 92,
                     "startColumn": 4,
-                    "startOffset": 5062,
+                    "startOffset": 5067,
                     "endColumn": 91,
-                    "endOffset": 5149
+                    "endOffset": 5154
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 95,
                         "startColumn": 4,
-                        "startOffset": 5393,
+                        "startOffset": 5398,
                         "endColumn": 91,
-                        "endOffset": 5480
+                        "endOffset": 5485
                     }
                 }
             },
@@ -1701,18 +1701,18 @@
                 "to": {
                     "startLine": 93,
                     "startColumn": 4,
-                    "startOffset": 5154,
+                    "startOffset": 5159,
                     "endColumn": 81,
-                    "endOffset": 5231
+                    "endOffset": 5236
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 86,
                         "startColumn": 4,
-                        "startOffset": 4719,
+                        "startOffset": 4724,
                         "endColumn": 81,
-                        "endOffset": 4796
+                        "endOffset": 4801
                     }
                 }
             },
@@ -1720,18 +1720,18 @@
                 "to": {
                     "startLine": 94,
                     "startColumn": 4,
-                    "startOffset": 5236,
+                    "startOffset": 5241,
                     "endColumn": 83,
-                    "endOffset": 5315
+                    "endOffset": 5320
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 85,
                         "startColumn": 4,
-                        "startOffset": 4634,
+                        "startOffset": 4639,
                         "endColumn": 83,
-                        "endOffset": 4713
+                        "endOffset": 4718
                     }
                 }
             },
@@ -1739,18 +1739,18 @@
                 "to": {
                     "startLine": 95,
                     "startColumn": 4,
-                    "startOffset": 5320,
+                    "startOffset": 5325,
                     "endColumn": 68,
-                    "endOffset": 5384
+                    "endOffset": 5389
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 96,
                         "startColumn": 4,
-                        "startOffset": 5486,
+                        "startOffset": 5491,
                         "endColumn": 68,
-                        "endOffset": 5550
+                        "endOffset": 5555
                     }
                 }
             },
@@ -1758,18 +1758,18 @@
                 "to": {
                     "startLine": 96,
                     "startColumn": 4,
-                    "startOffset": 5389,
+                    "startOffset": 5394,
                     "endColumn": 37,
-                    "endOffset": 5422
+                    "endOffset": 5427
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 97,
                         "startColumn": 4,
-                        "startOffset": 5556,
+                        "startOffset": 5561,
                         "endColumn": 37,
-                        "endOffset": 5589
+                        "endOffset": 5594
                     }
                 }
             },
@@ -1777,18 +1777,18 @@
                 "to": {
                     "startLine": 97,
                     "startColumn": 4,
-                    "startOffset": 5427,
+                    "startOffset": 5432,
                     "endColumn": 51,
-                    "endOffset": 5474
+                    "endOffset": 5479
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 102,
                         "startColumn": 4,
-                        "startOffset": 5825,
+                        "startOffset": 5830,
                         "endColumn": 51,
-                        "endOffset": 5872
+                        "endOffset": 5877
                     }
                 }
             },
@@ -1796,18 +1796,18 @@
                 "to": {
                     "startLine": 98,
                     "startColumn": 4,
-                    "startOffset": 5479,
+                    "startOffset": 5484,
                     "endColumn": 91,
-                    "endOffset": 5566
+                    "endOffset": 5571
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 94,
                         "startColumn": 4,
-                        "startOffset": 5300,
+                        "startOffset": 5305,
                         "endColumn": 91,
-                        "endOffset": 5387
+                        "endOffset": 5392
                     }
                 }
             },
@@ -1815,18 +1815,18 @@
                 "to": {
                     "startLine": 99,
                     "startColumn": 4,
-                    "startOffset": 5571,
+                    "startOffset": 5576,
                     "endColumn": 55,
-                    "endOffset": 5622
+                    "endOffset": 5627
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 103,
                         "startColumn": 4,
-                        "startOffset": 5878,
+                        "startOffset": 5883,
                         "endColumn": 55,
-                        "endOffset": 5929
+                        "endOffset": 5934
                     }
                 }
             },
@@ -1834,18 +1834,18 @@
                 "to": {
                     "startLine": 100,
                     "startColumn": 4,
-                    "startOffset": 5627,
+                    "startOffset": 5632,
                     "endColumn": 49,
-                    "endOffset": 5672
+                    "endOffset": 5677
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 106,
                         "startColumn": 4,
-                        "startOffset": 6041,
+                        "startOffset": 6046,
                         "endColumn": 49,
-                        "endOffset": 6086
+                        "endOffset": 6091
                     }
                 }
             },
@@ -1853,18 +1853,18 @@
                 "to": {
                     "startLine": 101,
                     "startColumn": 4,
-                    "startOffset": 5677,
+                    "startOffset": 5682,
                     "endColumn": 43,
-                    "endOffset": 5716
+                    "endOffset": 5721
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 78,
                         "startColumn": 4,
-                        "startOffset": 4171,
+                        "startOffset": 4176,
                         "endColumn": 43,
-                        "endOffset": 4210
+                        "endOffset": 4215
                     }
                 }
             },
@@ -1872,18 +1872,18 @@
                 "to": {
                     "startLine": 102,
                     "startColumn": 4,
-                    "startOffset": 5721,
+                    "startOffset": 5726,
                     "endColumn": 75,
-                    "endOffset": 5792
+                    "endOffset": 5797
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 82,
                         "startColumn": 4,
-                        "startOffset": 4421,
+                        "startOffset": 4426,
                         "endColumn": 75,
-                        "endOffset": 4492
+                        "endOffset": 4497
                     }
                 }
             },
@@ -1891,18 +1891,18 @@
                 "to": {
                     "startLine": 103,
                     "startColumn": 4,
-                    "startOffset": 5797,
+                    "startOffset": 5802,
                     "endColumn": 62,
-                    "endOffset": 5855
+                    "endOffset": 5860
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 100,
                         "startColumn": 4,
-                        "startOffset": 5706,
+                        "startOffset": 5711,
                         "endColumn": 62,
-                        "endOffset": 5764
+                        "endOffset": 5769
                     }
                 }
             },
@@ -1910,18 +1910,18 @@
                 "to": {
                     "startLine": 104,
                     "startColumn": 4,
-                    "startOffset": 5860,
+                    "startOffset": 5865,
                     "endColumn": 58,
-                    "endOffset": 5914
+                    "endOffset": 5919
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 99,
                         "startColumn": 4,
-                        "startOffset": 5646,
+                        "startOffset": 5651,
                         "endColumn": 58,
-                        "endOffset": 5700
+                        "endOffset": 5705
                     }
                 }
             },
@@ -1929,18 +1929,18 @@
                 "to": {
                     "startLine": 105,
                     "startColumn": 4,
-                    "startOffset": 5919,
+                    "startOffset": 5924,
                     "endColumn": 71,
-                    "endOffset": 5986
+                    "endOffset": 5991
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 83,
                         "startColumn": 4,
-                        "startOffset": 4498,
+                        "startOffset": 4503,
                         "endColumn": 71,
-                        "endOffset": 4565
+                        "endOffset": 4570
                     }
                 }
             },
@@ -1948,18 +1948,18 @@
                 "to": {
                     "startLine": 106,
                     "startColumn": 4,
-                    "startOffset": 5991,
+                    "startOffset": 5996,
                     "endColumn": 61,
-                    "endOffset": 6048
+                    "endOffset": 6053
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 93,
                         "startColumn": 4,
-                        "startOffset": 5237,
+                        "startOffset": 5242,
                         "endColumn": 61,
-                        "endOffset": 5294
+                        "endOffset": 5299
                     }
                 }
             },
@@ -1967,18 +1967,18 @@
                 "to": {
                     "startLine": 107,
                     "startColumn": 4,
-                    "startOffset": 6053,
+                    "startOffset": 6058,
                     "endColumn": 69,
-                    "endOffset": 6118
+                    "endOffset": 6123
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 80,
                         "startColumn": 4,
-                        "startOffset": 4285,
+                        "startOffset": 4290,
                         "endColumn": 69,
-                        "endOffset": 4350
+                        "endOffset": 4355
                     }
                 }
             },
@@ -1986,18 +1986,18 @@
                 "to": {
                     "startLine": 108,
                     "startColumn": 4,
-                    "startOffset": 6123,
+                    "startOffset": 6128,
                     "endColumn": 67,
-                    "endOffset": 6186
+                    "endOffset": 6191
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 79,
                         "startColumn": 4,
-                        "startOffset": 4216,
+                        "startOffset": 4221,
                         "endColumn": 67,
-                        "endOffset": 4279
+                        "endOffset": 4284
                     }
                 }
             },
@@ -2005,18 +2005,18 @@
                 "to": {
                     "startLine": 109,
                     "startColumn": 4,
-                    "startOffset": 6191,
+                    "startOffset": 6196,
                     "endColumn": 45,
-                    "endOffset": 6232
+                    "endOffset": 6237
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 89,
                         "startColumn": 4,
-                        "startOffset": 4947,
+                        "startOffset": 4952,
                         "endColumn": 45,
-                        "endOffset": 4988
+                        "endOffset": 4993
                     }
                 }
             },
@@ -2024,18 +2024,18 @@
                 "to": {
                     "startLine": 110,
                     "startColumn": 4,
-                    "startOffset": 6237,
+                    "startOffset": 6242,
                     "endColumn": 44,
-                    "endOffset": 6277
+                    "endOffset": 6282
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 107,
                         "startColumn": 4,
-                        "startOffset": 6092,
+                        "startOffset": 6097,
                         "endColumn": 44,
-                        "endOffset": 6132
+                        "endOffset": 6137
                     }
                 }
             },
@@ -2043,9 +2043,9 @@
                 "to": {
                     "startLine": 111,
                     "startColumn": 4,
-                    "startOffset": 6282,
+                    "startOffset": 6287,
                     "endColumn": 51,
-                    "endOffset": 6329
+                    "endOffset": 6334
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -2062,9 +2062,9 @@
                 "to": {
                     "startLine": 112,
                     "startColumn": 4,
-                    "startOffset": 6334,
+                    "startOffset": 6339,
                     "endColumn": 55,
-                    "endOffset": 6385
+                    "endOffset": 6390
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -2081,9 +2081,9 @@
                 "to": {
                     "startLine": 113,
                     "startColumn": 4,
-                    "startOffset": 6390,
+                    "startOffset": 6395,
                     "endColumn": 37,
-                    "endOffset": 6423
+                    "endOffset": 6428
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -2100,9 +2100,9 @@
                 "to": {
                     "startLine": 114,
                     "startColumn": 4,
-                    "startOffset": 6428,
+                    "startOffset": 6433,
                     "endColumn": 41,
-                    "endOffset": 6465
+                    "endOffset": 6470
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -2119,9 +2119,9 @@
                 "to": {
                     "startLine": 115,
                     "startColumn": 4,
-                    "startOffset": 6470,
+                    "startOffset": 6475,
                     "endColumn": 35,
-                    "endOffset": 6501
+                    "endOffset": 6506
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -2138,9 +2138,9 @@
                 "to": {
                     "startLine": 116,
                     "startColumn": 4,
-                    "startOffset": 6506,
+                    "startOffset": 6511,
                     "endColumn": 45,
-                    "endOffset": 6547
+                    "endOffset": 6552
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -2157,9 +2157,9 @@
                 "to": {
                     "startLine": 117,
                     "startColumn": 4,
-                    "startOffset": 6552,
+                    "startOffset": 6557,
                     "endColumn": 61,
-                    "endOffset": 6609
+                    "endOffset": 6614
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -2176,9 +2176,9 @@
                 "to": {
                     "startLine": 118,
                     "startColumn": 4,
-                    "startOffset": 6614,
+                    "startOffset": 6619,
                     "endColumn": 52,
-                    "endOffset": 6662
+                    "endOffset": 6667
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -2195,9 +2195,9 @@
                 "to": {
                     "startLine": 119,
                     "startColumn": 4,
-                    "startOffset": 6667,
+                    "startOffset": 6672,
                     "endColumn": 71,
-                    "endOffset": 6734
+                    "endOffset": 6739
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
@@ -2214,2244 +2214,12 @@
                 "to": {
                     "startLine": 120,
                     "startColumn": 4,
-                    "startOffset": 6739,
+                    "startOffset": 6744,
                     "endColumn": 64,
-                    "endOffset": 6799
+                    "endOffset": 6804
                 },
                 "from": {
                     "file": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 59,
-                        "startColumn": 4,
-                        "startOffset": 3142,
-                        "endColumn": 64,
-                        "endOffset": 3202
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rUS\\values-en-rUS.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 52,
-                    "endOffset": 103
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 106,
-                        "endColumn": 52,
-                        "endOffset": 154
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 108,
-                    "endColumn": 41,
-                    "endOffset": 145
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 984,
-                        "endColumn": 41,
-                        "endOffset": 1021
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 150,
-                    "endColumn": 45,
-                    "endOffset": 191
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 59,
-                        "endColumn": 45,
-                        "endOffset": 100
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 196,
-                    "endColumn": 49,
-                    "endOffset": 241
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 60,
-                        "startColumn": 4,
-                        "startOffset": 3208,
-                        "endColumn": 49,
-                        "endOffset": 3253
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 246,
-                    "endColumn": 47,
-                    "endOffset": 289
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 214,
-                        "endColumn": 47,
-                        "endOffset": 257
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 294,
-                    "endColumn": 62,
-                    "endOffset": 352
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 53,
-                        "startColumn": 4,
-                        "startOffset": 2772,
-                        "endColumn": 62,
-                        "endOffset": 2830
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 357,
-                    "endColumn": 71,
-                    "endOffset": 424
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 41,
-                        "startColumn": 4,
-                        "startOffset": 2033,
-                        "endColumn": 71,
-                        "endOffset": 2100
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 429,
-                    "endColumn": 77,
-                    "endOffset": 502
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 37,
-                        "startColumn": 4,
-                        "startOffset": 1805,
-                        "endColumn": 77,
-                        "endOffset": 1878
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 507,
-                    "endColumn": 41,
-                    "endOffset": 544
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 68,
-                        "startColumn": 4,
-                        "startOffset": 3638,
-                        "endColumn": 41,
-                        "endOffset": 3675
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 549,
-                    "endColumn": 44,
-                    "endOffset": 589
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 690,
-                        "endColumn": 44,
-                        "endOffset": 730
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 594,
-                    "endColumn": 43,
-                    "endOffset": 633
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 33,
-                        "startColumn": 4,
-                        "startOffset": 1593,
-                        "endColumn": 43,
-                        "endOffset": 1632
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 638,
-                    "endColumn": 47,
-                    "endOffset": 681
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 34,
-                        "startColumn": 4,
-                        "startOffset": 1638,
-                        "endColumn": 47,
-                        "endOffset": 1681
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 686,
-                    "endColumn": 49,
-                    "endOffset": 731
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 35,
-                        "startColumn": 4,
-                        "startOffset": 1687,
-                        "endColumn": 49,
-                        "endOffset": 1732
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 736,
-                    "endColumn": 51,
-                    "endOffset": 783
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 70,
-                        "startColumn": 4,
-                        "startOffset": 3769,
-                        "endColumn": 51,
-                        "endOffset": 3816
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 788,
-                    "endColumn": 86,
-                    "endOffset": 870
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 69,
-                        "startColumn": 4,
-                        "startOffset": 3681,
-                        "endColumn": 86,
-                        "endOffset": 3763
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 875,
-                    "endColumn": 59,
-                    "endOffset": 930
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 57,
-                        "startColumn": 4,
-                        "startOffset": 3017,
-                        "endColumn": 59,
-                        "endOffset": 3072
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 935,
-                    "endColumn": 39,
-                    "endOffset": 970
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 1501,
-                        "endColumn": 39,
-                        "endOffset": 1536
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 975,
-                    "endColumn": 49,
-                    "endOffset": 1020
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 32,
-                        "startColumn": 4,
-                        "startOffset": 1542,
-                        "endColumn": 49,
-                        "endOffset": 1587
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1025,
-                    "endColumn": 62,
-                    "endOffset": 1083
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 50,
-                        "startColumn": 4,
-                        "startOffset": 2607,
-                        "endColumn": 62,
-                        "endOffset": 2665
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1088,
-                    "endColumn": 52,
-                    "endOffset": 1136
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 52,
-                        "startColumn": 4,
-                        "startOffset": 2718,
-                        "endColumn": 52,
-                        "endOffset": 2766
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 1141,
-                    "endColumn": 49,
-                    "endOffset": 1186
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 1450,
-                        "endColumn": 49,
-                        "endOffset": 1495
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 1191,
-                    "endColumn": 57,
-                    "endOffset": 1244
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 65,
-                        "startColumn": 4,
-                        "startOffset": 3458,
-                        "endColumn": 57,
-                        "endOffset": 3511
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 24,
-                    "startColumn": 4,
-                    "startOffset": 1249,
-                    "endColumn": 51,
-                    "endOffset": 1296
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 63,
-                        "startColumn": 4,
-                        "startOffset": 3349,
-                        "endColumn": 51,
-                        "endOffset": 3396
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 25,
-                    "startColumn": 4,
-                    "startOffset": 1301,
-                    "endColumn": 88,
-                    "endOffset": 1385
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 72,
-                        "startColumn": 4,
-                        "startOffset": 3828,
-                        "endColumn": 88,
-                        "endOffset": 3912
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 26,
-                    "startColumn": 4,
-                    "startOffset": 1390,
-                    "endLine": 27,
-                    "endColumn": 16,
-                    "endOffset": 1488
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 73,
-                        "startColumn": 4,
-                        "startOffset": 3918,
-                        "endLine": 74,
-                        "endColumn": 16,
-                        "endOffset": 4017
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 28,
-                    "startColumn": 4,
-                    "startOffset": 1493,
-                    "endLine": 29,
-                    "endColumn": 18,
-                    "endOffset": 1589
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 75,
-                        "startColumn": 4,
-                        "startOffset": 4023,
-                        "endLine": 76,
-                        "endColumn": 18,
-                        "endOffset": 4120
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 30,
-                    "startColumn": 4,
-                    "startOffset": 1594,
-                    "endColumn": 39,
-                    "endOffset": 1629
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 437,
-                        "endColumn": 39,
-                        "endOffset": 472
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 31,
-                    "startColumn": 4,
-                    "startOffset": 1634,
-                    "endColumn": 45,
-                    "endOffset": 1675
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 300,
-                        "endColumn": 45,
-                        "endOffset": 341
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 32,
-                    "startColumn": 4,
-                    "startOffset": 1680,
-                    "endColumn": 62,
-                    "endOffset": 1738
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 58,
-                        "startColumn": 4,
-                        "startOffset": 3078,
-                        "endColumn": 62,
-                        "endOffset": 3136
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 33,
-                    "startColumn": 4,
-                    "startOffset": 1743,
-                    "endColumn": 51,
-                    "endOffset": 1790
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 1185,
-                        "endColumn": 51,
-                        "endOffset": 1232
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 34,
-                    "startColumn": 4,
-                    "startOffset": 1795,
-                    "endColumn": 51,
-                    "endOffset": 1842
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 26,
-                        "startColumn": 4,
-                        "startOffset": 1238,
-                        "endColumn": 51,
-                        "endOffset": 1285
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 35,
-                    "startColumn": 4,
-                    "startOffset": 1847,
-                    "endColumn": 51,
-                    "endOffset": 1894
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 1291,
-                        "endColumn": 51,
-                        "endOffset": 1338
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 36,
-                    "startColumn": 4,
-                    "startOffset": 1899,
-                    "endColumn": 51,
-                    "endOffset": 1946
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 1344,
-                        "endColumn": 51,
-                        "endOffset": 1391
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 37,
-                    "startColumn": 4,
-                    "startOffset": 1951,
-                    "endColumn": 51,
-                    "endOffset": 1998
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 1397,
-                        "endColumn": 51,
-                        "endOffset": 1444
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 38,
-                    "startColumn": 4,
-                    "startOffset": 2003,
-                    "endColumn": 51,
-                    "endOffset": 2050
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 57,
-                        "endColumn": 51,
-                        "endOffset": 104
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 39,
-                    "startColumn": 4,
-                    "startOffset": 2055,
-                    "endColumn": 51,
-                    "endOffset": 2102
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 110,
-                        "endColumn": 51,
-                        "endOffset": 157
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 40,
-                    "startColumn": 4,
-                    "startOffset": 2107,
-                    "endColumn": 51,
-                    "endOffset": 2154
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 163,
-                        "endColumn": 51,
-                        "endOffset": 210
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 41,
-                    "startColumn": 4,
-                    "startOffset": 2159,
-                    "endColumn": 51,
-                    "endOffset": 2206
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 216,
-                        "endColumn": 51,
-                        "endOffset": 263
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 42,
-                    "startColumn": 4,
-                    "startOffset": 2211,
-                    "endColumn": 51,
-                    "endOffset": 2258
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 269,
-                        "endColumn": 51,
-                        "endOffset": 316
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 43,
-                    "startColumn": 4,
-                    "startOffset": 2263,
-                    "endColumn": 51,
-                    "endOffset": 2310
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 322,
-                        "endColumn": 51,
-                        "endOffset": 369
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 44,
-                    "startColumn": 4,
-                    "startOffset": 2315,
-                    "endColumn": 51,
-                    "endOffset": 2362
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 375,
-                        "endColumn": 51,
-                        "endOffset": 422
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 45,
-                    "startColumn": 4,
-                    "startOffset": 2367,
-                    "endColumn": 51,
-                    "endOffset": 2414
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 428,
-                        "endColumn": 51,
-                        "endOffset": 475
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 46,
-                    "startColumn": 4,
-                    "startOffset": 2419,
-                    "endColumn": 51,
-                    "endOffset": 2466
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 481,
-                        "endColumn": 51,
-                        "endOffset": 528
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 47,
-                    "startColumn": 4,
-                    "startOffset": 2471,
-                    "endColumn": 51,
-                    "endOffset": 2518
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 534,
-                        "endColumn": 51,
-                        "endOffset": 581
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 48,
-                    "startColumn": 4,
-                    "startOffset": 2523,
-                    "endColumn": 51,
-                    "endOffset": 2570
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 587,
-                        "endColumn": 51,
-                        "endOffset": 634
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 49,
-                    "startColumn": 4,
-                    "startOffset": 2575,
-                    "endColumn": 51,
-                    "endOffset": 2622
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 640,
-                        "endColumn": 51,
-                        "endOffset": 687
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 50,
-                    "startColumn": 4,
-                    "startOffset": 2627,
-                    "endColumn": 51,
-                    "endOffset": 2674
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 693,
-                        "endColumn": 51,
-                        "endOffset": 740
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 51,
-                    "startColumn": 4,
-                    "startOffset": 2679,
-                    "endColumn": 51,
-                    "endOffset": 2726
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 746,
-                        "endColumn": 51,
-                        "endOffset": 793
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 52,
-                    "startColumn": 4,
-                    "startOffset": 2731,
-                    "endColumn": 51,
-                    "endOffset": 2778
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 799,
-                        "endColumn": 51,
-                        "endOffset": 846
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 53,
-                    "startColumn": 4,
-                    "startOffset": 2783,
-                    "endColumn": 52,
-                    "endOffset": 2831
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 160,
-                        "endColumn": 52,
-                        "endOffset": 208
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 54,
-                    "startColumn": 4,
-                    "startOffset": 2836,
-                    "endColumn": 72,
-                    "endOffset": 2904
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 835,
-                        "endColumn": 72,
-                        "endOffset": 903
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 55,
-                    "startColumn": 4,
-                    "startOffset": 2909,
-                    "endColumn": 42,
-                    "endOffset": 2947
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 49,
-                        "startColumn": 4,
-                        "startOffset": 2563,
-                        "endColumn": 42,
-                        "endOffset": 2601
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 56,
-                    "startColumn": 4,
-                    "startOffset": 2952,
-                    "endColumn": 46,
-                    "endOffset": 2994
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 67,
-                        "startColumn": 4,
-                        "startOffset": 3590,
-                        "endColumn": 46,
-                        "endOffset": 3632
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 57,
-                    "startColumn": 4,
-                    "startOffset": 2999,
-                    "endColumn": 83,
-                    "endOffset": 3078
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 43,
-                        "startColumn": 4,
-                        "startOffset": 2183,
-                        "endColumn": 83,
-                        "endOffset": 2262
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 58,
-                    "startColumn": 4,
-                    "startOffset": 3083,
-                    "endColumn": 51,
-                    "endOffset": 3130
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 44,
-                        "startColumn": 4,
-                        "startOffset": 2268,
-                        "endColumn": 51,
-                        "endOffset": 2315
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 59,
-                    "startColumn": 4,
-                    "startOffset": 3135,
-                    "endColumn": 69,
-                    "endOffset": 3200
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 56,
-                        "startColumn": 4,
-                        "startOffset": 2946,
-                        "endColumn": 69,
-                        "endOffset": 3011
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 60,
-                    "startColumn": 4,
-                    "startOffset": 3205,
-                    "endColumn": 45,
-                    "endOffset": 3246
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 62,
-                        "startColumn": 4,
-                        "startOffset": 3302,
-                        "endColumn": 45,
-                        "endOffset": 3343
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 61,
-                    "startColumn": 4,
-                    "startOffset": 3251,
-                    "endColumn": 33,
-                    "endOffset": 3280
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 949,
-                        "endColumn": 33,
-                        "endOffset": 978
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 62,
-                    "startColumn": 4,
-                    "startOffset": 3285,
-                    "endColumn": 42,
-                    "endOffset": 3323
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 646,
-                        "endColumn": 42,
-                        "endOffset": 684
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 63,
-                    "startColumn": 4,
-                    "startOffset": 3328,
-                    "endColumn": 54,
-                    "endOffset": 3378
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 64,
-                        "startColumn": 4,
-                        "startOffset": 3402,
-                        "endColumn": 54,
-                        "endOffset": 3452
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 64,
-                    "startColumn": 4,
-                    "startOffset": 3383,
-                    "endColumn": 38,
-                    "endOffset": 3417
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 909,
-                        "endColumn": 38,
-                        "endOffset": 943
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 65,
-                    "startColumn": 4,
-                    "startOffset": 3422,
-                    "endColumn": 65,
-                    "endOffset": 3483
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 36,
-                        "startColumn": 4,
-                        "startOffset": 1738,
-                        "endColumn": 65,
-                        "endOffset": 1799
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 66,
-                    "startColumn": 4,
-                    "startOffset": 3488,
-                    "endColumn": 45,
-                    "endOffset": 3529
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 51,
-                        "startColumn": 4,
-                        "startOffset": 2671,
-                        "endColumn": 45,
-                        "endOffset": 2712
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 67,
-                    "startColumn": 4,
-                    "startOffset": 3534,
-                    "endColumn": 85,
-                    "endOffset": 3615
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 1098,
-                        "endColumn": 85,
-                        "endOffset": 1179
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 68,
-                    "startColumn": 4,
-                    "startOffset": 3620,
-                    "endColumn": 69,
-                    "endOffset": 3685
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 1027,
-                        "endColumn": 69,
-                        "endOffset": 1092
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 69,
-                    "startColumn": 4,
-                    "startOffset": 3690,
-                    "endColumn": 61,
-                    "endOffset": 3747
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 583,
-                        "endColumn": 61,
-                        "endOffset": 640
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 70,
-                    "startColumn": 4,
-                    "startOffset": 3752,
-                    "endColumn": 52,
-                    "endOffset": 3800
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 529,
-                        "endColumn": 52,
-                        "endOffset": 577
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 71,
-                    "startColumn": 4,
-                    "startOffset": 3805,
-                    "endColumn": 49,
-                    "endOffset": 3850
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 347,
-                        "endColumn": 49,
-                        "endOffset": 392
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 72,
-                    "startColumn": 4,
-                    "startOffset": 3855,
-                    "endColumn": 49,
-                    "endOffset": 3900
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 478,
-                        "endColumn": 49,
-                        "endOffset": 523
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 73,
-                    "startColumn": 4,
-                    "startOffset": 3905,
-                    "endColumn": 46,
-                    "endOffset": 3947
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 787,
-                        "endColumn": 46,
-                        "endOffset": 829
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 74,
-                    "startColumn": 4,
-                    "startOffset": 3952,
-                    "endColumn": 49,
-                    "endOffset": 3997
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 736,
-                        "endColumn": 49,
-                        "endOffset": 781
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 75,
-                    "startColumn": 4,
-                    "startOffset": 4002,
-                    "endColumn": 73,
-                    "endOffset": 4071
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 45,
-                        "startColumn": 4,
-                        "startOffset": 2321,
-                        "endColumn": 73,
-                        "endOffset": 2390
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 76,
-                    "startColumn": 4,
-                    "startOffset": 4076,
-                    "endColumn": 66,
-                    "endOffset": 4138
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 48,
-                        "startColumn": 4,
-                        "startOffset": 2495,
-                        "endColumn": 66,
-                        "endOffset": 2557
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 77,
-                    "startColumn": 4,
-                    "startOffset": 4143,
-                    "endColumn": 37,
-                    "endOffset": 4176
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 40,
-                        "startColumn": 4,
-                        "startOffset": 1994,
-                        "endColumn": 37,
-                        "endOffset": 2027
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 78,
-                    "startColumn": 4,
-                    "startOffset": 4181,
-                    "endColumn": 43,
-                    "endOffset": 4220
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 46,
-                        "startColumn": 4,
-                        "startOffset": 2396,
-                        "endColumn": 43,
-                        "endOffset": 2435
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 79,
-                    "startColumn": 4,
-                    "startOffset": 4225,
-                    "endColumn": 75,
-                    "endOffset": 4296
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 42,
-                        "startColumn": 4,
-                        "startOffset": 2106,
-                        "endColumn": 75,
-                        "endOffset": 2177
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 80,
-                    "startColumn": 4,
-                    "startOffset": 4301,
-                    "endColumn": 51,
-                    "endOffset": 4348
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 104,
-                        "startColumn": 4,
-                        "startOffset": 5935,
-                        "endColumn": 51,
-                        "endOffset": 5982
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 81,
-                    "startColumn": 4,
-                    "startOffset": 4353,
-                    "endColumn": 51,
-                    "endOffset": 4400
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 105,
-                        "startColumn": 4,
-                        "startOffset": 5988,
-                        "endColumn": 51,
-                        "endOffset": 6035
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 82,
-                    "startColumn": 4,
-                    "startOffset": 4405,
-                    "endColumn": 63,
-                    "endOffset": 4464
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 81,
-                        "startColumn": 4,
-                        "startOffset": 4356,
-                        "endColumn": 63,
-                        "endOffset": 4415
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 83,
-                    "startColumn": 4,
-                    "startOffset": 4469,
-                    "endColumn": 43,
-                    "endOffset": 4508
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 77,
-                        "startColumn": 4,
-                        "startOffset": 4126,
-                        "endColumn": 43,
-                        "endOffset": 4165
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 84,
-                    "startColumn": 4,
-                    "startOffset": 4513,
-                    "endColumn": 53,
-                    "endOffset": 4562
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 101,
-                        "startColumn": 4,
-                        "startOffset": 5770,
-                        "endColumn": 53,
-                        "endOffset": 5819
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 85,
-                    "startColumn": 4,
-                    "startOffset": 4567,
-                    "endColumn": 49,
-                    "endOffset": 4612
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 98,
-                        "startColumn": 4,
-                        "startOffset": 5595,
-                        "endColumn": 49,
-                        "endOffset": 5640
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 86,
-                    "startColumn": 4,
-                    "startOffset": 4617,
-                    "endColumn": 61,
-                    "endOffset": 4674
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 84,
-                        "startColumn": 4,
-                        "startOffset": 4571,
-                        "endColumn": 61,
-                        "endOffset": 4628
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 87,
-                    "startColumn": 4,
-                    "startOffset": 4679,
-                    "endColumn": 66,
-                    "endOffset": 4741
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 87,
-                        "startColumn": 4,
-                        "startOffset": 4802,
-                        "endColumn": 66,
-                        "endOffset": 4864
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 88,
-                    "startColumn": 4,
-                    "startOffset": 4746,
-                    "endColumn": 75,
-                    "endOffset": 4817
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 88,
-                        "startColumn": 4,
-                        "startOffset": 4870,
-                        "endColumn": 75,
-                        "endOffset": 4941
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 89,
-                    "startColumn": 4,
-                    "startOffset": 4822,
-                    "endColumn": 71,
-                    "endOffset": 4889
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 90,
-                        "startColumn": 4,
-                        "startOffset": 4994,
-                        "endColumn": 71,
-                        "endOffset": 5061
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 90,
-                    "startColumn": 4,
-                    "startOffset": 4894,
-                    "endColumn": 69,
-                    "endOffset": 4959
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 91,
-                        "startColumn": 4,
-                        "startOffset": 5067,
-                        "endColumn": 69,
-                        "endOffset": 5132
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 91,
-                    "startColumn": 4,
-                    "startOffset": 4964,
-                    "endColumn": 97,
-                    "endOffset": 5057
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 92,
-                        "startColumn": 4,
-                        "startOffset": 5138,
-                        "endColumn": 97,
-                        "endOffset": 5231
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 92,
-                    "startColumn": 4,
-                    "startOffset": 5062,
-                    "endColumn": 91,
-                    "endOffset": 5149
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 95,
-                        "startColumn": 4,
-                        "startOffset": 5393,
-                        "endColumn": 91,
-                        "endOffset": 5480
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 93,
-                    "startColumn": 4,
-                    "startOffset": 5154,
-                    "endColumn": 81,
-                    "endOffset": 5231
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 86,
-                        "startColumn": 4,
-                        "startOffset": 4719,
-                        "endColumn": 81,
-                        "endOffset": 4796
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 94,
-                    "startColumn": 4,
-                    "startOffset": 5236,
-                    "endColumn": 83,
-                    "endOffset": 5315
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 85,
-                        "startColumn": 4,
-                        "startOffset": 4634,
-                        "endColumn": 83,
-                        "endOffset": 4713
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 95,
-                    "startColumn": 4,
-                    "startOffset": 5320,
-                    "endColumn": 68,
-                    "endOffset": 5384
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 96,
-                        "startColumn": 4,
-                        "startOffset": 5486,
-                        "endColumn": 68,
-                        "endOffset": 5550
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 96,
-                    "startColumn": 4,
-                    "startOffset": 5389,
-                    "endColumn": 37,
-                    "endOffset": 5422
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 97,
-                        "startColumn": 4,
-                        "startOffset": 5556,
-                        "endColumn": 37,
-                        "endOffset": 5589
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 97,
-                    "startColumn": 4,
-                    "startOffset": 5427,
-                    "endColumn": 51,
-                    "endOffset": 5474
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 102,
-                        "startColumn": 4,
-                        "startOffset": 5825,
-                        "endColumn": 51,
-                        "endOffset": 5872
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 98,
-                    "startColumn": 4,
-                    "startOffset": 5479,
-                    "endColumn": 91,
-                    "endOffset": 5566
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 94,
-                        "startColumn": 4,
-                        "startOffset": 5300,
-                        "endColumn": 91,
-                        "endOffset": 5387
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 99,
-                    "startColumn": 4,
-                    "startOffset": 5571,
-                    "endColumn": 55,
-                    "endOffset": 5622
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 103,
-                        "startColumn": 4,
-                        "startOffset": 5878,
-                        "endColumn": 55,
-                        "endOffset": 5929
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 100,
-                    "startColumn": 4,
-                    "startOffset": 5627,
-                    "endColumn": 49,
-                    "endOffset": 5672
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 106,
-                        "startColumn": 4,
-                        "startOffset": 6041,
-                        "endColumn": 49,
-                        "endOffset": 6086
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 101,
-                    "startColumn": 4,
-                    "startOffset": 5677,
-                    "endColumn": 43,
-                    "endOffset": 5716
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 78,
-                        "startColumn": 4,
-                        "startOffset": 4171,
-                        "endColumn": 43,
-                        "endOffset": 4210
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 102,
-                    "startColumn": 4,
-                    "startOffset": 5721,
-                    "endColumn": 75,
-                    "endOffset": 5792
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 82,
-                        "startColumn": 4,
-                        "startOffset": 4421,
-                        "endColumn": 75,
-                        "endOffset": 4492
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 103,
-                    "startColumn": 4,
-                    "startOffset": 5797,
-                    "endColumn": 62,
-                    "endOffset": 5855
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 100,
-                        "startColumn": 4,
-                        "startOffset": 5706,
-                        "endColumn": 62,
-                        "endOffset": 5764
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 104,
-                    "startColumn": 4,
-                    "startOffset": 5860,
-                    "endColumn": 58,
-                    "endOffset": 5914
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 99,
-                        "startColumn": 4,
-                        "startOffset": 5646,
-                        "endColumn": 58,
-                        "endOffset": 5700
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 105,
-                    "startColumn": 4,
-                    "startOffset": 5919,
-                    "endColumn": 71,
-                    "endOffset": 5986
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 83,
-                        "startColumn": 4,
-                        "startOffset": 4498,
-                        "endColumn": 71,
-                        "endOffset": 4565
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 106,
-                    "startColumn": 4,
-                    "startOffset": 5991,
-                    "endColumn": 61,
-                    "endOffset": 6048
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 93,
-                        "startColumn": 4,
-                        "startOffset": 5237,
-                        "endColumn": 61,
-                        "endOffset": 5294
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 107,
-                    "startColumn": 4,
-                    "startOffset": 6053,
-                    "endColumn": 69,
-                    "endOffset": 6118
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 80,
-                        "startColumn": 4,
-                        "startOffset": 4285,
-                        "endColumn": 69,
-                        "endOffset": 4350
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 108,
-                    "startColumn": 4,
-                    "startOffset": 6123,
-                    "endColumn": 67,
-                    "endOffset": 6186
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 79,
-                        "startColumn": 4,
-                        "startOffset": 4216,
-                        "endColumn": 67,
-                        "endOffset": 4279
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 109,
-                    "startColumn": 4,
-                    "startOffset": 6191,
-                    "endColumn": 45,
-                    "endOffset": 6232
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 89,
-                        "startColumn": 4,
-                        "startOffset": 4947,
-                        "endColumn": 45,
-                        "endOffset": 4988
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 110,
-                    "startColumn": 4,
-                    "startOffset": 6237,
-                    "endColumn": 44,
-                    "endOffset": 6277
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 107,
-                        "startColumn": 4,
-                        "startOffset": 6092,
-                        "endColumn": 44,
-                        "endOffset": 6132
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 111,
-                    "startColumn": 4,
-                    "startOffset": 6282,
-                    "endColumn": 51,
-                    "endOffset": 6329
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 39,
-                        "startColumn": 4,
-                        "startOffset": 1941,
-                        "endColumn": 51,
-                        "endOffset": 1988
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 112,
-                    "startColumn": 4,
-                    "startOffset": 6334,
-                    "endColumn": 55,
-                    "endOffset": 6385
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 38,
-                        "startColumn": 4,
-                        "startOffset": 1884,
-                        "endColumn": 55,
-                        "endOffset": 1935
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 113,
-                    "startColumn": 4,
-                    "startOffset": 6390,
-                    "endColumn": 37,
-                    "endOffset": 6423
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 398,
-                        "endColumn": 37,
-                        "endOffset": 431
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 114,
-                    "startColumn": 4,
-                    "startOffset": 6428,
-                    "endColumn": 41,
-                    "endOffset": 6465
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 61,
-                        "startColumn": 4,
-                        "startOffset": 3259,
-                        "endColumn": 41,
-                        "endOffset": 3296
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 115,
-                    "startColumn": 4,
-                    "startOffset": 6470,
-                    "endColumn": 35,
-                    "endOffset": 6501
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 263,
-                        "endColumn": 35,
-                        "endOffset": 294
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 116,
-                    "startColumn": 4,
-                    "startOffset": 6506,
-                    "endColumn": 45,
-                    "endOffset": 6547
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 54,
-                        "startColumn": 4,
-                        "startOffset": 2836,
-                        "endColumn": 45,
-                        "endOffset": 2877
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 117,
-                    "startColumn": 4,
-                    "startOffset": 6552,
-                    "endColumn": 61,
-                    "endOffset": 6609
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 55,
-                        "startColumn": 4,
-                        "startOffset": 2883,
-                        "endColumn": 61,
-                        "endOffset": 2940
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 118,
-                    "startColumn": 4,
-                    "startOffset": 6614,
-                    "endColumn": 52,
-                    "endOffset": 6662
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 47,
-                        "startColumn": 4,
-                        "startOffset": 2441,
-                        "endColumn": 52,
-                        "endOffset": 2489
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 119,
-                    "startColumn": 4,
-                    "startOffset": 6667,
-                    "endColumn": 71,
-                    "endOffset": 6734
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
-                    "position": {
-                        "startLine": 66,
-                        "startColumn": 4,
-                        "startOffset": 3517,
-                        "endColumn": 71,
-                        "endOffset": 3584
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 120,
-                    "startColumn": 4,
-                    "startOffset": 6739,
-                    "endColumn": 64,
-                    "endOffset": 6799
-                },
-                "from": {
-                    "file": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\values-en-rUS\\string.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 4,

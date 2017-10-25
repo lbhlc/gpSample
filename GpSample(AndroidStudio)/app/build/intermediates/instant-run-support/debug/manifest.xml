@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="26" />
+        android:targetSdkVersion="25" />
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -31,7 +31,7 @@
 
     <meta-data
         android:name="android.support.VERSION"
-        android:value="26.0.0-alpha1" />
+        android:value="25.3.1" />
 
     <application
         android:allowBackup="true"
@@ -99,7 +99,9 @@
         </service>
         <service android:name="com.gprinter.service.AllService" />
 
-        <activity android:name="com.gprinter.sample.printZXT.PrintActivity" >
+        <activity
+            android:name="com.gprinter.sample.printZXT.PrintActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

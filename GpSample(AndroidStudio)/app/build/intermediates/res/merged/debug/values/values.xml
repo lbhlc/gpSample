@@ -392,7 +392,7 @@
             <flag name="withText" value="4"/>
             
             <flag name="collapseActionView" value="8"/>
-        </attr><attr format="reference" name="actionLayout"/><attr format="string" name="actionViewClass"/><attr format="string" name="actionProviderClass"/><attr format="string" name="contentDescription"/><attr format="string" name="tooltipText"/></declare-styleable>
+        </attr><attr format="reference" name="actionLayout"/><attr format="string" name="actionViewClass"/><attr format="string" name="actionProviderClass"/></declare-styleable>
     <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/><attr format="reference" name="subMenuArrow"/></declare-styleable>
     <declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/><attr name="android:popupAnimationStyle"/></declare-styleable>
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
@@ -606,7 +606,7 @@
     <string name="connect">connect</string>
     <string name="connected">connected</string>
     <string name="connecting">connecting</string>
-    <string name="copy_right_cn">佳博集团 版权所有</string>
+    <string name="copy_right_cn">沈阳天眼智云信息科技有限公司</string>
     <string name="copy_right_en">COPYRIGHT@2017 GPRINTER ALL RIGHTS RESERVERD</string>
     <string name="current_version">current version</string>
     <string name="cut">disconn</string>
@@ -624,6 +624,7 @@
     <string name="esc">Receipt</string>
     <string name="ethernet">ethernet</string>
     <string name="find_new_version">Found new version</string>
+    <string name="friendlyreminder">友情提示</string>
     <string name="gprinter001">Printer 001</string>
     <string name="gprinter002">Printer 002</string>
     <string name="gprinter003">Printer 003</string>
@@ -706,12 +707,15 @@
     <string name="str_us_cn">chlish</string>
     <string name="title_other_devices">New</string>
     <string name="title_paired_devices">Paired</string>
+    <string name="toOpen">去打开</string>
+    <string name="toOpenbluetoothOrNot">是否去打开蓝牙</string>
     <string name="tsc">Label</string>
     <string name="update">update</string>
     <string name="usb">USB</string>
     <string name="usb_address">USB： </string>
     <string name="usb_devices_list">USB devices list</string>
     <string name="usb_info">usb information</string>
+    <string name="waitAmoment">再等等</string>
     <string name="whether_or_not_setup_new_app">Setup new app?</string>
     <string name="whether_or_not_to_update">Update app?</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

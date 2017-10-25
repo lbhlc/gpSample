@@ -14,6 +14,7 @@ import com.gprinter.service.GpPrintService;
 import com.sample.R;
 
 import android.app.Activity;
+import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -34,6 +35,9 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import static com.gprinter.sample.PortConfigurationActivity.REQUEST_CONNECT_DEVICE;
+import static com.gprinter.sample.PortConfigurationActivity.REQUEST_ENABLE_BT;
 
 public class PrinterConnectDialog extends Activity {
 	private final static String DEBUG_TAG = "SamleApp";
@@ -147,6 +151,7 @@ public class PrinterConnectDialog extends Activity {
 					map.put(ListViewAdapter.STATUS, getString(R.string.connecting));
 					mList.set(id, map);
 					mListViewAdapter.notifyDataSetChanged();
+					finish();
 
 				} else if (type == GpDevice.STATE_NONE) {
 					setProgressBarIndeterminateVisibility(false);
@@ -176,8 +181,7 @@ public class PrinterConnectDialog extends Activity {
 	};
 
 	private String getPortParamInfoString(PortParameters Param) {
-		String info = new String();
-		info = getString(R.string.port);
+		String info = getString(R.string.port);
 		int type = Param.getPortType();
 		Log.d(DEBUG_TAG, "Param.getPortType() " + type);
 		if (type == PortParameters.BLUETOOTH) {
@@ -251,7 +255,7 @@ public class PrinterConnectDialog extends Activity {
 		return list;
 	}
 
-	class TitelItemOnLongClickLisener implements OnItemLongClickListener {
+	private class TitelItemOnLongClickLisener implements OnItemLongClickListener {
 		@Override
 		public boolean onItemLongClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
 			// TODO Auto-generated method stub
@@ -263,7 +267,7 @@ public class PrinterConnectDialog extends Activity {
 		}
 	}
 
-	class TitelItemOnClickLisener implements OnItemClickListener {
+	private class TitelItemOnClickLisener implements OnItemClickListener {
 		@Override
 		public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
 			// TODO Auto-generated method stub]
@@ -272,6 +276,7 @@ public class PrinterConnectDialog extends Activity {
 			startActivityForResult(intent, INTENT_PORT_SETTINGS);
 		}
 	}
+	
 
 	void connectOrDisConnectToDevice(int PrinterId) {
 		mPrinterId = PrinterId;
@@ -419,5 +424,32 @@ public class PrinterConnectDialog extends Activity {
 
 	private void messageBox(String err) {
 		Toast.makeText(getApplicationContext(), err, Toast.LENGTH_SHORT).show();
+	}
+
+	/**
+	 * 获取蓝牙设备列表
+	 */
+	public void getBluetoothDevice() {
+		// Get local Bluetooth adapter
+		BluetoothAdapter bluetoothAdapter = BluetoothAdapter
+				.getDefaultAdapter();
+		// If the adapter is null, then Bluetooth is not supported
+		if (bluetoothAdapter == null) {
+			messageBox("Bluetooth is not supported by the device");
+		} else {
+			// If BT is not on, request that it be enabled.
+			// setupChat() will then be called during onActivityResult
+			if (!bluetoothAdapter.isEnabled()) {
+				Intent enableIntent = new Intent(
+						BluetoothAdapter.ACTION_REQUEST_ENABLE);
+				startActivityForResult(enableIntent,
+						REQUEST_ENABLE_BT);
+			} else {
+				Intent intent = new Intent(this,
+						BluetoothDeviceList.class);
+				startActivityForResult(intent,
+						REQUEST_CONNECT_DEVICE);
+			}
+		}
 	}
 }

@@ -68,7 +68,7 @@
     <string name="loading">Loading...</string>
     <string name="cancel">Cancel</string>
     <string name="copy_right_en">COPYRIGHT@2017 GPRINTER ALL RIGHTS RESERVERD</string>
-    <string name="copy_right_cn">佳博集团 版权所有</string>
+    <string name="copy_right_cn">沈阳天眼智云信息科技有限公司</string>
     
     <string name="error_configuration">Please configure your serial port first.</string>
     <string name="error_security">You do not have read/write permission to the serial

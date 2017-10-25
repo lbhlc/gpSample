@@ -82,7 +82,7 @@
     <string name="loading">正在载入。。。</string>
     <string name="cancel">取消</string>
     <string name="copy_right_en">COPYRIGHT@2017 GPRINTER ALL RIGHTS RESERVERD</string>
-    <string name="copy_right_cn">佳博集团 版权所有</string>
+    <string name="copy_right_cn">沈阳天眼智云信息科技有限公司</string>
 
 
 
@@ -121,5 +121,8 @@
     <string name="str_us_cn">中英文显示</string>
     <string name="str_recovery">恢复</string>
     <string name="str_all_white">全白测试</string>
-
+    <string name="friendlyreminder">友情提示</string>
+    <string name="toOpenbluetoothOrNot">是否去打开蓝牙</string>
+    <string name="waitAmoment">再等等</string>
+    <string name="toOpen">去打开</string>
 </resources>

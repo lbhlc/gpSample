@@ -128,7 +128,7 @@
     <string name="connect">连接</string>
     <string name="connected">已连接</string>
     <string name="connecting">连接中</string>
-    <string name="copy_right_cn">佳博集团 版权所有</string>
+    <string name="copy_right_cn">沈阳天眼智云信息科技有限公司</string>
     <string name="copy_right_en">COPYRIGHT@2017 GPRINTER ALL RIGHTS RESERVERD</string>
     <string name="current_version">当前版本</string>
     <string name="cut">断开</string>
@@ -144,6 +144,7 @@
     <string name="esc">票据</string>
     <string name="ethernet">网口</string>
     <string name="find_new_version">发现新版本</string>
+    <string name="friendlyreminder">友情提示</string>
     <string name="gprinter001">Printer 001</string>
     <string name="gprinter002">Printer 002</string>
     <string name="gprinter003">Printer 003</string>
@@ -226,12 +227,15 @@
     <string name="str_us_cn">中英文显示</string>
     <string name="title_other_devices">新设备</string>
     <string name="title_paired_devices">已配对</string>
+    <string name="toOpen">去打开</string>
+    <string name="toOpenbluetoothOrNot">是否去打开蓝牙</string>
     <string name="tsc">标签</string>
     <string name="update">更新</string>
     <string name="usb">USB</string>
     <string name="usb_address">USB： </string>
     <string name="usb_devices_list">USB设备列表</string>
     <string name="usb_info">扫描到的设备USB信息</string>
+    <string name="waitAmoment">再等等</string>
     <string name="whether_or_not_setup_new_app">是否安装新的应用</string>
     <string name="whether_or_not_to_update">是否更新？</string>
 </resources>

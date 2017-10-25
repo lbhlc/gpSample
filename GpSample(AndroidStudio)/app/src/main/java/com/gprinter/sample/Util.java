@@ -5,7 +5,7 @@ import java.io.IOException;
 import taobe.tec.jcc.JChineseConvertor;
 
 public class Util {
-	public static String SimToTra(String simpStr) {
+	public static String simToTra(String simpStr) {
 		String traditionalStr = null;
 		try {
 			JChineseConvertor jChineseConvertor = JChineseConvertor

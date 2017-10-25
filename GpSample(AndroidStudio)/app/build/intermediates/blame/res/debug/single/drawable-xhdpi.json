@@ -1,9 +1,5 @@
 [
     {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
-        "source": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\launcher.png",
         "source": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-xhdpi\\launcher.png"
     },
@@ -12,20 +8,8 @@
         "source": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-xhdpi\\ic_printer.png"
     },
     {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gprinter.png",
-        "source": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-xhdpi\\gprinter.png"
-    },
-    {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_printer.png",
-        "source": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-xhdpi\\ic_printer.png"
-    },
-    {
         "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gprinter.png",
         "source": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-xhdpi\\gprinter.png"
-    },
-    {
-        "merged": "E:\\test\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\launcher.png",
-        "source": "E:\\test\\GpSample(AndroidStudio)\\app\\src\\main\\res\\drawable-xhdpi\\launcher.png"
     },
     {
         "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",

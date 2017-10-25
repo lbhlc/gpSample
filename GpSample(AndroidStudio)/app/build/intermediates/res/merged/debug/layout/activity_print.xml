@@ -18,15 +18,25 @@
         <LinearLayout android:id="@+id/ll_save_area"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginLeft="18dp"
-            android:layout_marginRight="18dp"
             android:layout_weight="876"
             android:gravity="center_horizontal"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
             <com.example.smallchart.chart.LineChart
-                android:id="@+id/lineChart"
+                android:id="@+id/lineCharty"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <com.example.smallchart.chart.LineChart
+                android:id="@+id/lineChartx"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <com.example.smallchart.chart.LineChart
+                android:id="@+id/lineChartz"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
 
         </LinearLayout>
 
@@ -43,7 +53,27 @@
             android:layout_weight="80"
             android:background="@drawable/btn_red_selector"
             android:gravity="center"
-            android:text="存储到相册"
+            android:text="开始打印"
+            android:textColor="@color/white"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="180"/>
+
+        <TextView android:id="@+id/to_connect"
+            android:layout_width="match_parent"
+            android:layout_height="00dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="80"
+            android:background="@drawable/btn_red_selector"
+            android:gravity="center"
+            android:text="去连接打印机"
             android:textColor="@color/white"/>
 
         <Space
