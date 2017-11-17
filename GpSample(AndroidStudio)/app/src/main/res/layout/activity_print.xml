@@ -8,92 +8,67 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="36"/>
-
         <LinearLayout android:id="@+id/ll_save_area"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="876"
+            android:layout_weight="1000"
             android:gravity="center_horizontal"
             android:orientation="vertical"
             >
-            <com.example.smallchart.chart.LineChart
-                android:id="@+id/lineCharty"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
-            <com.example.smallchart.chart.LineChart
-                android:id="@+id/lineChartx"
+                android:layout_weight="3"
+                android:id="@+id/press"
+                android:orientation="vertical">
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/lineChart_perssure01"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/lineChart_perssure02"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
-            <com.example.smallchart.chart.LineChart
-                android:id="@+id/lineChartz"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"/>
-
+                android:layout_weight="2"
+                android:id="@+id/leanangle"
+                android:orientation="vertical">
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/lineChart_perssure03"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
         </LinearLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="180"/>
-
         <TextView android:id="@+id/tv_save"
             android:layout_width="match_parent"
             android:layout_height="00dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_weight="80"
+            android:layout_weight="30"
             android:background="@drawable/btn_red_selector"
             android:gravity="center"
             android:text="开始打印"
             android:textColor="@color/white"/>
-
         <Space
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="16"/>
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="180"/>
+            android:layout_weight="5"/>
 
         <TextView android:id="@+id/to_connect"
             android:layout_width="match_parent"
             android:layout_height="00dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_weight="80"
+            android:layout_weight="30"
             android:background="@drawable/btn_red_selector"
             android:gravity="center"
             android:text="去连接打印机"
             android:textColor="@color/white"/>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="16"/>
     </LinearLayout>
-
-
-    <FrameLayout
-        android:id="@+id/fl_pic"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/Black"
-        android:visibility="gone">
-
-        <ImageView android:id="@+id/iv_pic_get"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"/>
-    </FrameLayout>
-
-
 </FrameLayout>

@@ -43,9 +43,16 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.example.smallchart.chart.LineChart;
-import com.example.smallchart.data.LineData;
+
 import com.example.smallchart.interfaces.iData.ILineData;
+import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.components.Description;
+import com.github.mikephil.charting.components.Legend;
+import com.github.mikephil.charting.components.XAxis;
+import com.github.mikephil.charting.components.YAxis;
+import com.github.mikephil.charting.data.Entry;
+import com.github.mikephil.charting.data.LineData;
+import com.github.mikephil.charting.data.LineDataSet;
 import com.gprinter.aidl.GpService;
 import com.gprinter.command.EscCommand;
 import com.gprinter.command.GpCom;
@@ -59,12 +66,28 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Vector;
+
+import static android.R.attr.path;
+
 public class PrintActivity extends Activity implements View.OnClickListener {
     /**
      * 保存
      */
     private TextView mSave;
+    /**
+     * 折线图大哥大
+     */
+    private LineChart mLineChartPerssure01;
+    private LineChart mLineChartPerssure02;
+    private LineChart mLineChartPerssure03;
+    /**
+     * 大哥大数据
+     */
+    private  List<Float> listIntX = new ArrayList<>();
+    private List<Float> listIntY = new ArrayList<>();
+    private  List<Float> listIntZ = new ArrayList<>();
     /**
      * 去连接打印机
      */
@@ -77,10 +100,12 @@ public class PrintActivity extends Activity implements View.OnClickListener {
      * 顶部裁剪坐标
      */
     private int mCutTop;
+    private int lCutTop;
     /**
      * 左侧裁剪坐标
      */
     private int mCutLeft;
+    private int lCutLeft;
     /**
      * 截图成功后显示的控件
      */
@@ -90,10 +115,12 @@ public class PrintActivity extends Activity implements View.OnClickListener {
      * 绘图区高度
      */
     private int mPicGetHeight;
+    private int leanPicGetHeight;
     /**
      * 绘图区宽度
      */
     private int mPicGetWidth;
+    private int leanPicGetWidth;
     /**
      * 最后的截图
      */
@@ -103,6 +130,7 @@ public class PrintActivity extends Activity implements View.OnClickListener {
      * 待裁剪区域的绝对坐标
      */
     private int[] mSavePositions = new int[2];
+    private int[] leanSavePositions = new int[2];
     /**
      * 成功动画handler
      */
@@ -111,7 +139,8 @@ public class PrintActivity extends Activity implements View.OnClickListener {
      * 恢复初始化handler
      */
     private InitHandler initHandler;
-    String path = null;
+    String leanpath = null;
+    String presspath=null;
     /**
      * 折线图的数据
      */
@@ -136,6 +165,12 @@ public class PrintActivity extends Activity implements View.OnClickListener {
     private SharedPreferences sharedPreferences=null;
     private SharedPreferences.Editor editor;
     private boolean flag=false;
+    private LinearLayout press;
+    private LinearLayout leanangle;
+    private Bitmap leanbitmap;
+    private Bitmap bmp;
+    private Bitmap savebmp;
+    private Bitmap saveLean;
     /**
      * 计数
      */
@@ -145,13 +180,10 @@ public class PrintActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_print);
         initView();
         initData();
-        LineChart lineChartx = (LineChart) findViewById(R.id.lineChartx);
-        lineChartx.setDataList(mDataList);
-        LineChart lineCharty = (LineChart) findViewById(R.id.lineCharty);
-        lineCharty.setDataList(mDataList);
-        LineChart lineChartz = (LineChart) findViewById(R.id.lineChartz);
-        lineChartz.setDataList(mDataList);
+
+       // lineChartpy.setDataList(mDataList);
         connection();
+        drawingLine();
         /**
          * 注册广播
          */
@@ -174,9 +206,12 @@ public class PrintActivity extends Activity implements View.OnClickListener {
         mSave = (TextView) findViewById(R.id.tv_save);
         mOpen = (TextView) findViewById(R.id.to_connect);
         mSaveArea = (LinearLayout) findViewById(R.id.ll_save_area);
-        mPicGet = (ImageView) findViewById(R.id.iv_pic_get);
-        mFL = (FrameLayout) findViewById(R.id.fl_pic);
+        mLineChartPerssure01 = (LineChart) findViewById(R.id.lineChart_perssure01);
+        mLineChartPerssure02 = (LineChart) findViewById(R.id.lineChart_perssure02);
+        mLineChartPerssure03 = (LineChart) findViewById(R.id.lineChart_perssure03);
         mTotal = (FrameLayout) findViewById(R.id.fl_total);
+        press= (LinearLayout) findViewById(R.id.press);
+        leanangle= (LinearLayout) findViewById(R.id.leanangle);
         mSave.setOnClickListener(this);
         mOpen.setOnClickListener(this);
         successHandler = new SuccessHandler();
@@ -191,11 +226,17 @@ public class PrintActivity extends Activity implements View.OnClickListener {
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
         if (hasFocus) {
-            mSaveArea.getLocationOnScreen(mSavePositions);
+            press.getLocationOnScreen(mSavePositions);
             mCutLeft = mSavePositions[0];
             mCutTop = mSavePositions[1];
             mPicGetHeight = mTotal.getHeight();
             mPicGetWidth = mTotal.getWidth();
+            leanangle.getLocationInWindow(leanSavePositions);
+            lCutLeft=leanSavePositions[0];
+            lCutTop=leanSavePositions[1];
+            leanPicGetHeight=mTotal.getHeight();
+            leanPicGetWidth=mTotal.getWidth();
+
         }
     }
 
@@ -212,25 +253,25 @@ public class PrintActivity extends Activity implements View.OnClickListener {
     @Override
     protected void onResume() {
         super.onResume();
-        Log.e("LBH","onResum外:path="+path);
-        Log.e("LBH","onResum外:flag="+flag);
-        if (path==null&&flag)
-        {
-            path=sharedPreferences.getString("path",null);
-            Log.e("LBH","onResum内:path="+path);
-        }
+//        Log.e("LBH","onResum外:path="+path);
+//        Log.e("LBH","onResum外:flag="+flag);
+//        if (path==null&&flag)
+//        {
+//            path=sharedPreferences.getString("path",null);
+//            Log.e("LBH","onResum内:path="+path);
+//        }
 
     }
     @Override
     protected void onPause() {
         super.onPause();
-        Log.e("LBH","onpause:path="+path);
-        flag=true;
-        if (flag) {
-            editor.putString("path", path);
-            editor.commit();
-            path=null;
-        }
+//        Log.e("LBH","onpause:path="+path);
+//        flag=true;
+//        if (flag) {
+//            editor.putString("path", path);
+//            editor.commit();
+//            path=null;
+//        }
 
     }
 
@@ -259,20 +300,20 @@ public class PrintActivity extends Activity implements View.OnClickListener {
         switch (v.getId()) {
             case R.id.tv_save:
                 mSave.setText("开始打印");
-                mSave.setEnabled(false);
+                mSave.setEnabled(true);
                 MyExcutorManager.getInstance().execute(new Runnable() {
                     @Override
                     public void run() {
-                        if (path == null) {
+
                             Log.e("LBH","screenshot="+path);
                             Log.e("LBH", "screenshot");
                             screenshot();
-                        } else {
+                            screenShotLeanAngle();
                             Log.e("LBH", "goToPrint");
                             Looper.prepare();//如果不写就会报java.lang.RuntimeException: Can't create handler inside thread that has not called Looper.prepare()
-                            goToPrint(path);
+                            goToPrint();
                             Looper.loop();//如果不写就会报java.lang.RuntimeException: Can't create handler inside thread that has not called Looper.prepare()
-                        }
+
                     }
                 });
                 break;
@@ -287,7 +328,81 @@ public class PrintActivity extends Activity implements View.OnClickListener {
                 break;
         }
     }
+    private void screenShotLeanAngle()
+    {
+        View dView = getWindow().getDecorView();
+        dView.setDrawingCacheEnabled(true);
+        dView.buildDrawingCache();
+        leanbitmap=dView.getDrawingCache();
+        if (leanbitmap!=null)
+        {
 
+            try {
+                //二次截图
+                saveLean=Bitmap.createBitmap(leanangle.getWidth(), leanangle.getHeight(), Bitmap.Config.ARGB_8888);
+                Canvas canvas = new Canvas(saveLean);
+                Paint paint = new Paint();
+                canvas.drawBitmap(leanbitmap, new Rect(lCutLeft, lCutTop, lCutLeft + leanangle.getWidth(), lCutTop + leanangle.getHeight()),
+                        new Rect(0, 0, leanangle.getWidth(), leanangle.getHeight()), paint);//画的时候是有动画的效果
+
+                File imageDir = new File(Constant.IMAGE_DIR);
+                //File imageDir = new File(cacheDirPath);
+                if (!imageDir.exists()) {
+                    try {
+                        imageDir.mkdir();
+                    }catch (Exception e)
+                    {
+                        throw new IOException("unable to create file");
+                    }
+                }
+                Log.e("LBH", imageDir.exists() + "");
+                String imageName = Constant.SCREEN_lean;
+                File file = new File(imageDir, imageName);
+                Log.e("LBh", "path=" + file.getPath());
+                try {
+                    if (file.exists()) {
+                        try {
+                            file.delete();
+                        }catch (Exception e)
+                        {
+                            throw new IOException("this file is not exists");
+                        }
+                        Log.e("LBH", "252");
+                    }
+                    try{
+                        file.createNewFile();
+                    }catch (Exception e)
+                    {
+                        Log.e(TAG,"不能创建文件夹");
+                    }
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                    Log.e("LBH", e.getMessage());
+                    Log.e("LBH", "258");
+                }
+                FileOutputStream os = new FileOutputStream(file);
+                saveLean.compress(Bitmap.CompressFormat.PNG, 100, os);
+                os.flush();
+                os.close();
+                Log.e("LBH", "261");
+                //将截图保存至相册并广播通知系统刷新
+                MediaStore.Images.Media.insertImage(getContentResolver(), file.getAbsolutePath(), imageName, null);
+                Intent intent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, Uri.fromFile(file));
+                Log.e("LBH", Uri.fromFile(file).getPath());
+                sendBroadcast(intent);
+                // intent = new Intent(PrintActivity.this, MainActivity.class);
+                leanpath = Uri.fromFile(file).getPath();
+                successHandler.sendMessage(Message.obtain());
+
+            } catch (Exception e) {
+                Log.e(TAG,e.getMessage());
+            }
+        } else {
+            initHandler.sendMessage(Message.obtain());
+        }
+
+    }
     /**
      * 截图模块
      */
@@ -297,17 +412,16 @@ public class PrintActivity extends Activity implements View.OnClickListener {
         View dView = getWindow().getDecorView();
         dView.setDrawingCacheEnabled(true);
         dView.buildDrawingCache();
-        Bitmap bmp = dView.getDrawingCache();
+         bmp = dView.getDrawingCache();
         Log.e("LBH", "231");
         if (bmp != null) {
             try {
                 //二次截图
-                saveBitmap = Bitmap.createBitmap(mSaveArea.getWidth(), mSaveArea.getHeight(), Bitmap.Config.ARGB_8888);
-                Canvas canvas = new Canvas(saveBitmap);
+                savebmp = Bitmap.createBitmap(press.getWidth(), press.getHeight(), Bitmap.Config.ARGB_8888);
+                Canvas canvas = new Canvas(savebmp);
                 Paint paint = new Paint();
-                canvas.drawBitmap(bmp, new Rect(mCutLeft, mCutTop, mCutLeft + mSaveArea.getWidth(), mCutTop + mSaveArea.getHeight()),
-                        new Rect(0, 0, mSaveArea.getWidth(), mSaveArea.getHeight()), paint);
-
+                canvas.drawBitmap(bmp, new Rect(mCutLeft, mCutTop, mCutLeft + press.getWidth(), mCutTop + press.getHeight()),
+                        new Rect(0, 0, press.getWidth(), press.getHeight()), paint);//画的时候是有动画的效果
                 File imageDir = new File(Constant.IMAGE_DIR);
                 //File imageDir = new File(cacheDirPath);
                 Log.e("LBH", "243");
@@ -348,7 +462,7 @@ public class PrintActivity extends Activity implements View.OnClickListener {
                     Log.e("LBH", "258");
                 }
                 FileOutputStream os = new FileOutputStream(file);
-                saveBitmap.compress(Bitmap.CompressFormat.PNG, 100, os);
+                savebmp.compress(Bitmap.CompressFormat.PNG, 100, os);
                 os.flush();
                 os.close();
                 Log.e("LBH", "261");
@@ -358,7 +472,7 @@ public class PrintActivity extends Activity implements View.OnClickListener {
                 Log.e("LBH", Uri.fromFile(file).getPath());
                 sendBroadcast(intent);
                // intent = new Intent(PrintActivity.this, MainActivity.class);
-                path = Uri.fromFile(file).getPath();
+                presspath = Uri.fromFile(file).getPath();
                 successHandler.sendMessage(Message.obtain());
 
             } catch (Exception e) {
@@ -375,7 +489,7 @@ public class PrintActivity extends Activity implements View.OnClickListener {
      *
      * @param path 打印图片的路径
      */
-    private void goToPrint(String path) {
+    private void goToPrint() {
         EscCommand esc = new EscCommand();
         esc.addInitializePrinter();
         esc.addPrintAndFeedLines((byte) 3);
@@ -393,9 +507,21 @@ public class PrintActivity extends Activity implements View.OnClickListener {
 		/* 打印文字 */
         esc.addSelectPrintModes(EscCommand.FONT.FONTA, EscCommand.ENABLE.OFF, EscCommand.ENABLE.OFF, EscCommand.ENABLE.OFF, EscCommand.ENABLE.OFF);// 取消倍高倍宽
         esc.addSelectJustification(EscCommand.JUSTIFICATION.LEFT);// 设置打印左对齐
-        Log.e("LBH", "打印的path=" + path);
-        Bitmap bitmap = BitmapFactory.decodeFile(path);
-        esc.addRastBitImage(bitmap, 384, 0);
+
+        Bitmap bitmap = BitmapFactory.decodeFile(presspath);
+        Log.e("LBH","savebmp="+presspath);
+        esc.addText("第一张\n");
+        if (bitmap!=null)
+        {
+            esc.addRastBitImage(bitmap, 384, 0);
+        }
+        Log.e("LBH","saveLean="+leanpath);
+        esc.addText("第二张\n");
+        Bitmap bitmaplean=BitmapFactory.decodeFile(leanpath);
+        if (bitmaplean!=null)
+        {
+            esc.addRastBitImage(bitmaplean, 384, 0);
+        }
         esc.addSelectJustification(EscCommand.JUSTIFICATION.CENTER);// 设置打印左对齐
         esc.addText("Completed!\r\n"); // 打印结束
         printHandler.sendEmptyMessage(0);
@@ -445,7 +571,7 @@ public class PrintActivity extends Activity implements View.OnClickListener {
     private class SuccessHandler extends Handler {
         @Override
         public void handleMessage(Message msg) {
-            showSuccessNew();
+            //showSuccessNew();
 //            switch (msg.what)
 //            {
 //                case SAVESUCCEED:
@@ -539,20 +665,7 @@ public class PrintActivity extends Activity implements View.OnClickListener {
         }
     }
 
-    /**
-     * 获取数据
-     */
-    private void initData() {
-        for (int i = 0; i < points.length - 1; i++) {
-            mPointArrayList.add(new PointF(points[i][0], points[i][1]));
-        }
-        mLineData.setValue(mPointArrayList);
-        mLineData.setColor(Color.MAGENTA);
-        mLineData.setPaintWidth(pxTodp(1f));
-        mLineData.setTextSize(pxTodp(0.5f));
-        mDataList.add(mLineData);
 
-    }
 
     protected float pxTodp(float value) {
         DisplayMetrics metrics = new DisplayMetrics();
@@ -604,7 +717,7 @@ public class PrintActivity extends Activity implements View.OnClickListener {
                 } else if (requestCode == REQUEST_PRINT_RECEIPT) {
                     int status = intent.getIntExtra(GpCom.EXTRA_PRINTER_REAL_STATUS, 16);
                     if (status == GpCom.STATE_NO_ERR) {
-                        goToPrint(path);
+                        goToPrint();
                     } else {
                         final AlertDialog.Builder warnDialog =
                                 new AlertDialog.Builder(PrintActivity.this);
@@ -690,5 +803,180 @@ public class PrintActivity extends Activity implements View.OnClickListener {
         editor.commit();
         editor=null;
         super.onDestroy();
+    }
+    private void drawingLine() {
+        // 清空图形表
+        mLineChartPerssure01.clear();
+        mLineChartPerssure02.clear();
+        mLineChartPerssure03.clear();
+        if (listIntX.size() != 0) {
+            // 设置线条数据
+            generateDataLine(listIntX, null, null);
+            showLine(mLineChartPerssure01, listIntX, null, null);
+        }
+
+        if (listIntY.size() != 0) {
+            // 设置线条数据
+            generateDataLine(null, listIntY, null);
+            showLine(mLineChartPerssure02, null, listIntY, null);
+        }
+
+        if (listIntZ.size() != 0) {
+            // 设置线条数据
+            generateDataLine(null, null, listIntZ);
+            showLine(mLineChartPerssure03, null, null, listIntZ);
+        }
+    }
+    private void initData()
+    {
+        for (int i=0;i<60;i++)
+        {
+            listIntX.add(0.5f);
+            listIntY.add(0.8f);
+            listIntZ.add(0.3f);
+        }
+    }
+    /**
+     * 生成
+     *
+     * @param listX
+     * @param listY
+     * @return
+     */
+    private LineData generateDataLine(List<Float> listX, List<Float> listY, List<Float> listZ) {
+        // X 线
+        ArrayList<Entry> XValue = new ArrayList<>();
+
+        if (listX == null) {
+            listX = new ArrayList<>();
+            listX.add(new Float(0.0));
+        }
+        for (int i = 0; i < listX.size(); i++) {
+            XValue.add(new Entry(i, listX.get(i)));
+        }
+        LineDataSet xLine = new LineDataSet(XValue, "X");
+        xLine.setAxisDependency(YAxis.AxisDependency.LEFT);
+        xLine.setDrawValues(false);
+        xLine.setLineWidth(4f);    //设置线的宽度
+        xLine.setCircleSize(1f);   //设置小圆的大小
+        xLine.setColor(Color.parseColor("#D0AA6C"));
+        // Y 线
+        ArrayList<Entry> YValue = new ArrayList<>();
+        if (listY == null) {
+            listY = new ArrayList<>();
+            listY.add(new Float(0.0));
+        }
+        for (int i = 0; i < listY.size(); i++) {
+            YValue.add(new Entry(i, listY.get(i)));
+        }
+        LineDataSet yLine = new LineDataSet(YValue, "Y");
+        yLine.setAxisDependency(YAxis.AxisDependency.LEFT);
+        yLine.setDrawValues(false);
+        yLine.setLineWidth(4f);    //设置线的宽度
+        yLine.setCircleSize(1f);   //设置小圆的大小
+        yLine.setColor(Color.parseColor("#BF6A31"));
+        // Z 线
+        ArrayList<Entry> ZValue = new ArrayList<>();
+        if (listZ == null) {
+            listZ = new ArrayList<>();
+            listZ.add(new Float(0.0));
+        }
+        for (int i = 0; i < listZ.size(); i++) {
+            ZValue.add(new Entry(i, listZ.get(i)));
+        }
+        LineDataSet zLine = new LineDataSet(ZValue, "Z");
+        zLine.setAxisDependency(YAxis.AxisDependency.LEFT);
+        zLine.setDrawValues(false);//隐藏掉折线图上的值
+        zLine.setLineWidth(4f);    //设置线的宽度
+        zLine.setCircleSize(1f);   //设置小圆的大小
+        zLine.setColor(Color.parseColor("#BF6A31"));
+        LineData lineData = new LineData(xLine, yLine, zLine);
+        return lineData;
+    }
+
+
+    /**
+     * 显示线条
+     *
+     * @param listX
+     * @param listY
+     * @param listZ
+     */
+    private void showLine(LineChart lineChart, List<Float> listX, List<Float> listY, List<Float> listZ) {
+        // 设置字体
+        // Typeface fromAsset = Typeface.createFromAsset(mContext.getAssets(), "OpenSans-Regular.ttf");
+        lineChart.setAlpha(0.8f);//设置透明度
+        lineChart.setDrawBorders(false); //是否在折线图上添加边框
+
+        lineChart.setBorderColor(Color.rgb(213, 216, 214));//边框颜色
+        lineChart.setDrawGridBackground(false); // 是否显示表格颜色
+        lineChart.setGridBackgroundColor(0); // 表格的的颜色
+        lineChart.setHighlightPerDragEnabled(false);
+        lineChart.setNoDataText("正在加载...");
+        //设置点击chart图对应的数据弹出标注
+        Legend l = lineChart.getLegend();
+        l.setEnabled(false);//设置图表最下方的标注是否显示// 标签.例如: 移动  联通  电信
+        l.setHorizontalAlignment(Legend.LegendHorizontalAlignment.LEFT);
+        l.setOrientation(Legend.LegendOrientation.HORIZONTAL);
+        l.setDrawInside(false);
+        XAxis xAxis = lineChart.getXAxis();
+        xAxis.setPosition(XAxis.XAxisPosition.BOTTOM);
+        //  xAxis.setTypeface(fromAsset);
+        xAxis.setDrawLabels(false);
+        xAxis.setDrawGridLines(false);
+        xAxis.setDrawAxisLine(true);
+        xAxis.setDrawLabels(true);
+        xAxis.setAxisMinimum(0f);
+        xAxis.setGranularity(1f);
+//        xAxis.setValueFormatter(new IAxisValueFormatter() {
+//            @Override
+//            public String getFormattedValue(float value, AxisBase axis) {
+//
+//                return xList[(int) value % xList.length];
+//            }
+//        });
+
+        YAxis leftAxis = lineChart.getAxisLeft();
+//        leftAxis.enableGridDashedLine(10f, 10f, 0f);
+        leftAxis.setDrawZeroLine(false);
+        leftAxis.setDrawGridLines(false);
+        leftAxis.setDrawLabels(true);//设置y轴的刻度值
+        leftAxis.setTextColor(Color.RED);
+        // limit lines are drawn behind data (and not on top)
+        leftAxis.setDrawLimitLinesBehindData(true);
+//        YAxis rightAxis = mScakeChart.getAxisRight();
+//        rightAxis.setEnabled(false);
+
+        // 隐藏右边 的坐标轴
+        lineChart.getAxisRight().setEnabled(false);
+//        mLineChart.getAxisLeft().setEnabled(false);
+//        mLineChart.getAxisLeft().setValueFormatter(new IAxisValueFormatter() {
+//            @Override
+//            public String getFormattedValue(float value, AxisBase axis) {
+//                return "" + (int) value;//这样设置后，显示整数
+        // 把这句代码注释掉，Y轴就可以显示浮点值了
+//            }
+//        });
+
+        xAxis.setAvoidFirstLastClipping(true);
+
+        xAxis.setTextSize(9);
+        xAxis.setPosition(XAxis.XAxisPosition.BOTTOM);
+        xAxis.setTextColor(Color.parseColor("#898989"));
+        Description description = new Description();
+        description.setText(" ");
+        description.setTextSize(14);
+        description.setTextColor(Color.parseColor("#777F82"));
+        lineChart.setDescription(description);
+        lineChart.setNoDataText("暂无数据");
+        lineChart.setTouchEnabled(true); // 设置是否可以触摸
+        lineChart.setDragEnabled(true);// 是否可以拖拽
+        lineChart.setScaleEnabled(true);// 是否可以缩放
+        lineChart.setPinchZoom(true);//y轴的值是否跟随图表变换缩放
+
+        //将数据插入
+        lineChart.setData(generateDataLine(listX, listY, listZ));
+        lineChart.animateX(2000);
+        lineChart.invalidate();
     }
 }

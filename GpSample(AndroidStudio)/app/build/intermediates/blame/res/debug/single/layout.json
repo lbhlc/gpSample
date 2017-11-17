@@ -40,6 +40,10 @@
         "source": "C:\\Users\\Administrator.PC-20170906YNBG\\.android\\build-cache\\91f82f688b487083f060e9b71b4bfa764929d9d9\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",
+        "source": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
         "merged": "E:\\localgithub\\Printer\\GpSample(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\Administrator.PC-20170906YNBG\\.android\\build-cache\\91f82f688b487083f060e9b71b4bfa764929d9d9\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
